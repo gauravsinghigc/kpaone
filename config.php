@@ -23,7 +23,7 @@ define("LOCAL_HOST", [
 
 //filter domain from local or live server
 if (in_array("" . HOST . "", LOCAL_HOST)) {
-    define("DOMAIN", $link . HOST . "/system");
+    define("DOMAIN", $link . HOST . "/kpaone");
 } else {
     define("DOMAIN", $link . HOST);
 }
@@ -36,4 +36,4 @@ DEFINE("CONTROL_DB_STATUS", false);
 DEFINE("DB_SERVER_HOST", "localhost");
 DEFINE("DB_SERVER_USER", "root");
 DEFINE("DB_SERVER_PASS", "");
-DEFINE("DB_SERVER_DB_NAME", "system");
+DEFINE("DB_SERVER_DB_NAME", "kpaone");

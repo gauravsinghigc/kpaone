@@ -1,0 +1,209 @@
+[27-Nov-2024 08:13:16 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in C:\xampp\htdocs\kpaone\modules\AuthUserModules.php on line 11
+[27-Nov-2024 08:13:16 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserFullName" in C:\xampp\htdocs\kpaone\include\common\TopHeader.php:22
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\index.php(25): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\common\TopHeader.php on line 22
+[27-Nov-2024 08:15:34 Asia/Calcutta] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in C:\xampp\htdocs\kpaone\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php:2212
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 27 N...', '\r\n    <body sty...')
+#2 C:\xampp\htdocs\kpaone\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 C:\xampp\htdocs\kpaone\acm\SysModules\MAIL_Modules\Mail.php(82): PHPMailer\PHPMailer\PHPMailer->send()
+#4 C:\xampp\htdocs\kpaone\handler\AuthController\AuthController.php(28): SENDMAILS('New device logi...', 'Hey User, ', 'gauravsinghigc@...', 'New device logi...')
+#5 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\MAIL_Modules\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2212
+[27-Nov-2024 08:22:33 Asia/Calcutta] PHP Warning:  Undefined array key "CurrentFile" in C:\xampp\htdocs\kpaone\handler\SystemController\ConfigController.php on line 155
+[27-Nov-2024 08:25:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kpaone.config_vendor_types' doesn't exist in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Checker.php:24
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Checker.php(24): mysqli_query(Object(mysqli), 'SELECT vendor_t...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Suggest.php(6): CHECK('SELECT vendor_t...')
+#2 C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php(66): SUGGEST('config_vendor_t...', 'vendor_type_nam...', 'ASC')
+#3 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Checker.php on line 24
+[27-Nov-2024 08:28:08 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kpaone.vendor' doesn't exist in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\DBOperations.php:16
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\DBOperations.php(16): mysqli_query(Object(mysqli), 'SELECT vendor_i...')
+#1 C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php(108): TOTAL('SELECT vendor_i...')
+#2 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\DBOperations.php on line 16
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateVendorTypeForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateVendorTypeForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 134
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/CreateVendorTypes.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 152
+[27-Nov-2024 08:29:34 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/CreateVendorTypes.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php on line 152
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateConfigUrlsForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateConfigUrlsForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateConfigUrlsForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateConfigUrlsForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateConfigUrlsForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateConfigUrlsForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateConfigUrlsForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateConfigUrlsForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/UpdateConfigUrlsForm.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/UpdateConfigUrlsForm.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 133
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(../../..//include/forms/app/CreateNewConfigUrls.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 151
+[27-Nov-2024 08:29:47 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//include/forms/app/CreateNewConfigUrls.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php on line 151
+[27-Nov-2024 08:30:36 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "COMMON_STATUS" in C:\xampp\htdocs\kpaone\include\forms\app\UpdateConfigUrlsForm.php:23
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\settings\config-urls\index.php(133): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\forms\app\UpdateConfigUrlsForm.php on line 23
+[27-Nov-2024 08:30:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "COMMON_STATUS" in C:\xampp\htdocs\kpaone\include\forms\app\UpdateVendorTypeForm.php:23
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php(134): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\forms\app\UpdateVendorTypeForm.php on line 23
+[27-Nov-2024 08:30:56 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "COMMON_STATUS" in C:\xampp\htdocs\kpaone\include\forms\app\UpdateVendorTypeForm.php:23
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\settings\config-vendors\index.php(134): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\forms\app\UpdateVendorTypeForm.php on line 23
+[27-Nov-2024 08:36:03 Asia/Calcutta] PHP Warning:  include(../../assets/app/HeaderFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\users\index.php on line 23
+[27-Nov-2024 08:36:03 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/HeaderFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\users\index.php on line 23
+[27-Nov-2024 08:36:03 Asia/Calcutta] PHP Warning:  include(../../include/forms/Update-Users-Details.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\users\index.php on line 105
+[27-Nov-2024 08:36:03 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Update-Users-Details.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\users\index.php on line 105
+[27-Nov-2024 08:36:03 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-New-Users.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\users\index.php on line 122
+[27-Nov-2024 08:36:03 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-New-Users.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\users\index.php on line 122
+[27-Nov-2024 08:36:03 Asia/Calcutta] PHP Warning:  include(../../assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\users\index.php on line 124
+[27-Nov-2024 08:36:03 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\users\index.php on line 124
+[27-Nov-2024 08:36:42 Asia/Calcutta] PHP Warning:  include(../../include/forms/Update-Users-Details.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\users\index.php on line 105
+[27-Nov-2024 08:36:42 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Update-Users-Details.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\users\index.php on line 105
+[27-Nov-2024 08:36:42 Asia/Calcutta] PHP Warning:  include(../../include/forms/Add-New-Users.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\users\index.php on line 122
+[27-Nov-2024 08:36:42 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/forms/Add-New-Users.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\users\index.php on line 122
+[27-Nov-2024 08:39:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'UserUpdatedBy' in 'field list' in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Update.php:10
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Update.php(10): mysqli_query(Object(mysqli), 'UPDATE users SE...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Update.php(46): UPDATE_SQL('UPDATE users SE...')
+#2 C:\xampp\htdocs\kpaone\handler\ModuleController\UserController.php(80): UPDATE('users', Array, 'UserId='1'')
+#3 C:\xampp\htdocs\kpaone\handler\ModuleController.php(10): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Update.php on line 10
+[27-Nov-2024 08:40:40 Asia/Calcutta] PHP Warning:  Undefined variable $UserPhoneNumber in C:\xampp\htdocs\kpaone\handler\AuthController\AuthController.php on line 79
+[27-Nov-2024 08:40:49 Asia/Calcutta] PHP Warning:  include(../../assets/app/HeaderFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\vendors\index.php on line 14
+[27-Nov-2024 08:40:49 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/HeaderFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\vendors\index.php on line 14
+[27-Nov-2024 08:40:49 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function VendorTypeDetails() in C:\xampp\htdocs\kpaone\app\vendors\index.php:133
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\kpaone\app\vendors\index.php on line 133
+[27-Nov-2024 08:42:20 Asia/Calcutta] PHP Warning:  include(../../assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\vendors\index.php on line 210
+[27-Nov-2024 08:42:20 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\vendors\index.php on line 210
+[27-Nov-2024 08:42:37 Asia/Calcutta] PHP Warning:  include(../../../assets/app/HeaderFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\vendors\add\index.php on line 16
+[27-Nov-2024 08:42:37 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../assets/app/HeaderFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\vendors\add\index.php on line 16
+[27-Nov-2024 08:42:37 Asia/Calcutta] PHP Warning:  include(../../../assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\vendors\add\index.php on line 251
+[27-Nov-2024 08:42:37 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\vendors\add\index.php on line 251
+[27-Nov-2024 08:42:39 Asia/Calcutta] PHP Warning:  include(../../assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\vendors\index.php on line 210
+[27-Nov-2024 08:42:39 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\vendors\index.php on line 210
+[27-Nov-2024 08:44:14 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "VENDOR_MENUS" in C:\xampp\htdocs\kpaone\app\vendors\details\Handler\HeaderRequest.php:34
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\vendors\details\index.php(5): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\app\vendors\details\Handler\HeaderRequest.php on line 34
+[27-Nov-2024 08:45:25 Asia/Calcutta] PHP Warning:  include(../../..//assets/app/HeaderFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\vendors\details\index.php on line 16
+[27-Nov-2024 08:45:25 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//assets/app/HeaderFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\vendors\details\index.php on line 16
+[27-Nov-2024 08:45:25 Asia/Calcutta] PHP Warning:  include(../../..//assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\vendors\details\index.php on line 71
+[27-Nov-2024 08:45:25 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../..//assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\vendors\details\index.php on line 71
+[27-Nov-2024 08:49:59 Asia/Calcutta] PHP Warning:  include(../../assets/app/HeaderFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\enquiries\index.php on line 21
+[27-Nov-2024 08:49:59 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/HeaderFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\enquiries\index.php on line 21
+[27-Nov-2024 08:49:59 Asia/Calcutta] PHP Warning:  include(../../assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\enquiries\index.php on line 69
+[27-Nov-2024 08:49:59 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\enquiries\index.php on line 69
+[27-Nov-2024 08:52:59 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\kpaone\modules\AppNavigationMenus.php on line 599
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 9
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 12
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 20
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 24
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 33
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 37
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 46
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 50
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 59
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 63
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 72
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 76
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 85
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 89
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 98
+[27-Nov-2024 08:53:08 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 102
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 9
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 12
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 20
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 24
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 33
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 37
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 46
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 50
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 59
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 63
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 72
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 76
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 85
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 89
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 98
+[27-Nov-2024 08:54:12 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 102
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 9
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 12
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 20
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 24
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 33
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 37
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 46
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 50
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 59
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 63
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 72
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 76
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 85
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 89
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 98
+[27-Nov-2024 08:55:11 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 102
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 9
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 12
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 20
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 24
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 33
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 37
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 46
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 50
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 59
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 63
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 72
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 76
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 85
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 89
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 98
+[27-Nov-2024 08:55:25 Asia/Calcutta] PHP Warning:  Undefined variable $REQ_VendorId in C:\xampp\htdocs\kpaone\app\leads\views\contact_us_enquiries.php on line 102
+[27-Nov-2024 09:08:26 Asia/Calcutta] PHP Warning:  include(../../assets/app/HeaderFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\index.php on line 16
+[27-Nov-2024 09:08:26 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/HeaderFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\index.php on line 16
+[27-Nov-2024 09:08:26 Asia/Calcutta] PHP Warning:  include(../../assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\index.php on line 61
+[27-Nov-2024 09:08:26 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\index.php on line 61
+[27-Nov-2024 09:08:57 Asia/Calcutta] PHP Warning:  include(../../../assets/app/HeaderFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 17
+[27-Nov-2024 09:08:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../assets/app/HeaderFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 17
+[27-Nov-2024 09:08:57 Asia/Calcutta] PHP Warning:  include(../../../include/app/CalculatorMenus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 42
+[27-Nov-2024 09:08:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/app/CalculatorMenus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 42
+[27-Nov-2024 09:08:57 Asia/Calcutta] PHP Warning:  include(../../../assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 335
+[27-Nov-2024 09:08:57 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 335
+[27-Nov-2024 09:09:59 Asia/Calcutta] PHP Warning:  include(../../../assets/app/HeaderFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 17
+[27-Nov-2024 09:09:59 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../assets/app/HeaderFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 17
+[27-Nov-2024 09:09:59 Asia/Calcutta] PHP Warning:  include(../../../include/app/CalculatorMenus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 42
+[27-Nov-2024 09:09:59 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/app/CalculatorMenus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 42
+[27-Nov-2024 09:09:59 Asia/Calcutta] PHP Warning:  include(../../../assets/app/FooterFiles.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 335
+[27-Nov-2024 09:09:59 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../assets/app/FooterFiles.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 335
+[27-Nov-2024 09:10:29 Asia/Calcutta] PHP Warning:  include(../../../include/app/CalculatorMenus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 42
+[27-Nov-2024 09:10:29 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../../include/app/CalculatorMenus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\tools\brick-calculator\index.php on line 42

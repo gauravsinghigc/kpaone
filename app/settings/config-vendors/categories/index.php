@@ -17,7 +17,7 @@ $PageDescription = "Manage System Profile, address, logo";
   <meta content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no" name="viewport" />
   <meta name="keywords" content="<?php echo APP_NAME; ?>">
   <meta name="description" content="<?php echo SECURE(SHORT_DESCRIPTION, "d"); ?>">
-  <?php include $Dir . "/assets/app/HeaderFiles.php"; ?>
+  <?php include $Dir . "/assets/HeaderFiles.php"; ?>
   <script type="text/javascript">
     function SidebarActive() {
       document.getElementById("configs_vendor").classList.add("active");
