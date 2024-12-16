@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Nov 27, 2024 at 04:36 AM
+=======
+-- Generation Time: Nov 18, 2024 at 03:26 AM
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,7 +22,11 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
+<<<<<<< HEAD
 -- Database: `kpaone`
+=======
+-- Database: `system`
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 --
 
 -- --------------------------------------------------------
@@ -51,6 +59,7 @@ CREATE TABLE `configurations` (
 --
 
 INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configurationvalue`, `configurationtype`, `configurationsupportivetext`) VALUES
+<<<<<<< HEAD
 (1, 'APP_NAME', 'KP ADITYA CO PRIVATE LIMITED', 'TEXT', 'null'),
 (2, 'TAGLINE', 'SYMPLIFYING CUNSTRUCTIONS BY DELIVERING VALUES', 'text', 'null'),
 (3, 'OWNER_NAME', 'GAURAV SINGH', 'text', 'null'),
@@ -58,6 +67,15 @@ INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configur
 (5, 'PRIMARY_EMAIL', 'info@kpaditya.co.in', 'email', 'null'),
 (6, 'SHORT_DESCRIPTION', 'MEYzNm9DY282T3AyRHhJVmlWMUJiSjFuUnBuUURQQnpzb2wzQjJFcVB5Tisxem9Bc3RiSzNOY1FYeXltb2lQVzlydllmbXFyVjZ5UW5ySXRVMzF4YWowaEQyNmcraGd2NDNnMjFGODgzd2RkZTFka0dsVE5nVmtYQlBsWmRyWk4zcG80OGFvN3pURjVZemt2RklxUEk2SU1saEQxYU1vbU4wU0lDYjBqNFR5SmlmaUh3Yk1lQ1ZlOTdHZ2h2cVZURHJVcGZ6eUo0Ti9lY0dnUUZFTHhpYkxkcmowZmxmVGQwdDg4TWtJVHhwRmNkb05kQlZoM0txY28xYnBnejJUbGtHYlpWSkkzZW92d2JHUXd3RFAxT1A5N2hmTmxxV0RRb2N0SUhRMTlxOVo4M05NZnRoblJPdXM2OHMxeEdOajhUVFdSOGlWOWZwZENLOGlkWnZDUU5RTmw5eitXdU5ZMjJIcXRaWkd5SUt6RlJ2MTFuZ1YxVncwS3BGWG84ZFh3K1Z1aEZ4UHgrSEI0c3dEYUJDeFdWZ0dxMjBrSTQ3bnJkWmg4eFlyWDZZTzM2eUFOYXpsSjJybjBSYXBHWDJ3N1pyMUVmRWtsQVdCMHJaM2NoT3NPS3Y2UHdiSlJtVkhxeEtOanJBbHcxRDRIY0w2eUVJU0tpTlN4Vks5YjBKZjQrL1pROTc4YXB2Q2RLMjlDWHFVcUFybFowdFN4ZnF1TGtYRW1zMkZCTk5kZkRpV0xwMDgwaWpLSWZXUHpkYUpGdTdONmljTzN4bmUzNkZBVWw2R3oyZz09', 'text', 'null'),
 (7, 'PRIMARY_ADDRESS', 'RFJSZTBmVHhhY2J2cTVTOFFZMlBHcGhZaGZYTG9HRkpLcXFpaTlveXM3b0wxT25yVytvYVRMSXdqdEw2ekxMeTNIYnlhVkdSNEdBSnFoT1JjdHptU1NNQ2g1REoweWRHZFdvNzBvUGIrb0VDWm9GeWhqSlcwVittZW9ZN1Q3YkQ=', 'address', 'null'),
+=======
+(1, 'APP_NAME', 'ABC COMPANY', 'TEXT', 'null'),
+(2, 'TAGLINE', 'GSI SYS-APP', 'text', 'null'),
+(3, 'OWNER_NAME', 'GAURAV SINGH', 'text', 'null'),
+(4, 'PRIMARY_PHONE', '0000000000', 'phone', 'null'),
+(5, 'PRIMARY_EMAIL', 'company@domain.tld', 'email', 'null'),
+(6, 'SHORT_DESCRIPTION', 'eWVMVlJmQnYvNUtpbmh6UHNDT0kyYVNTOFVxeWIrdmdMQjl1T0R3Q1BCZz0=', 'text', 'null'),
+(7, 'PRIMARY_ADDRESS', 'SVlZb2Urc1lOL2RheVFOdkdXUlJTdldldnJmT3RwYmxWSnZNa2JZeHJ2QkZadkM4ODVkR3pISVNXNHJMTUFyK041RGlydStTVG5qbjBTZlBDMVRYcFE9PQ==', 'address', 'null'),
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 (8, 'PRIMARY_MAP_LOCATION_LINK', 'aWpTWWNsdmhvbDBXM3M0NnVyRklGZz09', 'map', 'null'),
 (9, 'SENDER_MAIL_ID', 'sender@gmail.com', 'email', 'null'),
 (10, 'RECEIVER_MAIL', 'sender@domain.com', 'email', 'null'),
@@ -75,7 +93,11 @@ INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configur
 (24, 'CONTROL_NOTIFICATION', 'true', 'boolean', 'true, false'),
 (25, 'CONTROL_MSG_DISPLAY_TIME', '4500', 'number', '1000, 10000'),
 (26, 'CONTROL_APP_LOGS', 'false', 'boolean', 'true, false'),
+<<<<<<< HEAD
 (27, 'APP_LOGO', 'ABC_COMPANY__27_Nov_2024_08_11_03_82242389677_.png', 'img', 'null'),
+=======
+(27, 'APP_LOGO', 'ABC_COMPANY__17_Nov_2024_06_11_01_20390372946_.jpg', 'img', 'null'),
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 (28, 'SMS_OTP_TEMP_ID', 'null', 'text', 'null'),
 (29, 'PASS_RESET_OTP_TEMP', 'null', 'text', 'null'),
 (30, 'SMS_SENDER_ID', 'null', 'text', 'null'),
@@ -86,9 +108,15 @@ INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configur
 (35, 'ONLINE_PAYMENT_OPTION', 'false', 'boolean', 'true, false'),
 (36, 'CONTROL_NOTIFICATION_SOUND', 'true', 'boolean', 'true, false'),
 (37, 'FINANCIAL_YEAR', 'September - August', 'text', 'null'),
+<<<<<<< HEAD
 (38, 'GST_NO', '36AAICK1127D1ZX', 'text', 'null'),
 (39, 'COMPANY_TYPE', 'PUBLISHING', 'text', 'null'),
 (40, 'LOGIN_BG_IMAGE', 'ABC_COMPANY__27_Nov_2024_08_11_33_67168632264_.png', 'text', 'null'),
+=======
+(38, 'GST_NO', 'GSTNO1234567789', 'text', 'null'),
+(39, 'COMPANY_TYPE', 'PUBLISHING', 'text', 'null'),
+(40, 'LOGIN_BG_IMAGE', 'ABC_COMPANY__17_Nov_2024_06_11_56_64296375500_.jpg', 'text', 'null'),
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 (41, 'PRIMARY_AREA', 'M3RKYjIyemJJcnFXZ2xLdzZINzdMNVNqRVJFbkY2ZnpTQ1BmNFdQcUgrMD0=', 'text', 'null'),
 (42, 'PRIMARY_CITY', 'Q1o2a0w2NEpQOEFLTHA3ZHdNYjh4UT09', 'text', 'null'),
 (43, 'PRIMARY_STATE', 'Rm9nUDlDRTVkV20zWm8wMmEvMEpPZz09', 'text', 'null'),
@@ -116,9 +144,15 @@ INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configur
 (65, 'MAXIMUM_SHORT_LEAVE_IN_MONTH', '3', 'text', 'null'),
 (66, 'DEDUCTION_AMOUNT_ON_PER_LATE', '0', 'text', 'null'),
 (67, 'EMP_CODE', 'RNA', 'text', 'null'),
+<<<<<<< HEAD
 (68, 'WEBSITE_LOGO_SQ', 'ABC_COMPANY__27_Nov_2024_08_11_10_96406725286_.png', 'text', 'null'),
 (69, 'WEBSITE_LOGO_REC', 'ABC_COMPANY__27_Nov_2024_08_11_18_70179380849_.png', 'text', 'null'),
 (70, 'FAVICON_ICON', 'ABC_COMPANY__27_Nov_2024_08_11_27_94145302569_.png', 'text', 'null');
+=======
+(68, 'WEBSITE_LOGO_SQ', 'ABC_COMPANY__17_Nov_2024_06_11_13_42198133738_.jpg', 'text', 'null'),
+(69, 'WEBSITE_LOGO_REC', 'ABC_COMPANY__17_Nov_2024_06_11_43_78423077929_.jpg', 'text', 'null'),
+(70, 'FAVICON_ICON', 'ABC_COMPANY__17_Nov_2024_06_11_49_63604552042_.jpg', 'text', 'null');
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 
 -- --------------------------------------------------------
 
@@ -144,7 +178,11 @@ CREATE TABLE `config_locations` (
 --
 
 INSERT INTO `config_locations` (`config_location_id`, `config_location_name`, `config_location_address`, `config_location_Latitude`, `config_location_Longitude`, `config_location_status`, `config_location_created_at`, `config_location_updated_at`, `config_location_created_by`, `config_location_updated_by`) VALUES
+<<<<<<< HEAD
 (1, 'NOIDA', 'UFdBZzAxbHNKN1ZIUThDdnNYWDk3bFJKMXJWRWJXVGpIYnZkbzF3aUFqZVdWaVpyWG9PdEV0VEFrajQxV3ZxNw==', '28.627348', '77.380244', 1, '2023-05-10 05:09:48 pm', '2024-11-27 08:32:25 AM', 1, 1);
+=======
+(1, 'NOIDA', 'L2pVb2Z2cjhxRVdYUUhlbmVIOHJpRXFRcG40bUhGL1FDUDZhMHp6U3d3OTgxNTlFV2l2R0NybzB5YkxTZnVKRg==', '28.627348', '77.380244', 1, '2023-05-10 05:09:48 pm', '2023-08-29 02:15:38 pm', 1, 1);
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 
 -- --------------------------------------------------------
 
@@ -166,7 +204,11 @@ CREATE TABLE `config_mail_sender` (
 --
 
 INSERT INTO `config_mail_sender` (`config_mail_sender_id`, `config_mail_sender_host`, `config_mail_sender_username`, `config_mail_sender_password`, `config_mail_sender_port`, `config_mail_sent_from`) VALUES
+<<<<<<< HEAD
 (1, 'smtp.hostinger.com', 'development@navix.in', 'Gsi@9810895713', '465', 'development@navix.in');
+=======
+(1, 'smtp.hostinger.com', 'noreply@domain.tld', 'SMTP$$Password', '465', 'noreply@domain.tld');
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 
 -- --------------------------------------------------------
 
@@ -193,6 +235,7 @@ INSERT INTO `config_pgs` (`ConfigPgId`, `ConfigPgProvider`, `ConfigPgMode`, `Con
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Table structure for table `config_url_types`
 --
 
@@ -222,6 +265,8 @@ INSERT INTO `config_url_types` (`cut_id`, `cut_name`, `cut_icon`, `cut_created_a
 -- --------------------------------------------------------
 
 --
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- Table structure for table `config_values`
 --
 
@@ -235,6 +280,7 @@ CREATE TABLE `config_values` (
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Table structure for table `config_vendor_categories`
 --
 
@@ -343,6 +389,8 @@ INSERT INTO `config_vendor_types` (`vendor_type_id`, `vendor_type_name`, `vendor
 -- --------------------------------------------------------
 
 --
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- Table structure for table `systemlogs`
 --
 
@@ -379,16 +427,25 @@ CREATE TABLE `users` (
   `UserWorkFeilds` varchar(1000) NOT NULL,
   `UserProfileImage` varchar(1000) NOT NULL DEFAULT 'default.png',
   `UserType` varchar(1000) NOT NULL,
+<<<<<<< HEAD
   `UserDateOfBirth` varchar(100) NOT NULL,
   `UserUpdatedBy` int(10) NOT NULL
+=======
+  `UserDateOfBirth` varchar(100) NOT NULL
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
+<<<<<<< HEAD
 INSERT INTO `users` (`UserId`, `UserSalutation`, `UserFullName`, `UserPhoneNumber`, `UserEmailId`, `UserPassword`, `UserCreatedAt`, `UserUpdatedAt`, `UserStatus`, `UserNotes`, `UserCompanyName`, `UserDepartment`, `UserDesignation`, `UserWorkFeilds`, `UserProfileImage`, `UserType`, `UserDateOfBirth`, `UserUpdatedBy`) VALUES
 (1, 'Mr.', 'Gaurav Singh', '926882565', 'gauravsinghigc@gmail.com', 'VndsbUlpKzhKdWpEbEZNSUNva2t1UT09', '2024-11-18', '2024-11-27', 1, 'YkVYdnY2YmtTdHBSRVkxbW95bFEyWTl6L2YxNUhpQ1NRK0FFR1BMRnpDN0JnUEdFTzNwb0NJaUptK2V6WDJUTQ==', 'Navix Consultancy Services', 'Sales &amp; Marketing', 'ADMIN', 'Information Technology', 'default.png', 'Admin', '1999-01-22', 1);
+=======
+INSERT INTO `users` (`UserId`, `UserSalutation`, `UserFullName`, `UserPhoneNumber`, `UserEmailId`, `UserPassword`, `UserCreatedAt`, `UserUpdatedAt`, `UserStatus`, `UserNotes`, `UserCompanyName`, `UserDepartment`, `UserDesignation`, `UserWorkFeilds`, `UserProfileImage`, `UserType`, `UserDateOfBirth`) VALUES
+(1, 'Mr.', 'Gaurav Singh', '8447572565', 'gauravsinghigc@gmail.com', 'VndsbUlpKzhKdWpEbEZNSUNva2t1UT09', '0000-00-00 00:00:00.00000', '06 Sep, 2023', 1, 'YkVYdnY2YmtTdHBSRVkxbW95bFEyWTl6L2YxNUhpQ1NRK0FFR1BMRnpDN0JnUEdFTzNwb0NJaUptK2V6WDJUTQ==', 'Navix Consultancy Services', 'Sales &amp; Marketing', 'Sales Head', 'Information Technology', 'default.png', 'Admin', '2022-11-02');
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 
 -- --------------------------------------------------------
 
@@ -405,6 +462,7 @@ CREATE TABLE `user_password_change_requests` (
   `PasswordChangeRequestStatus` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+<<<<<<< HEAD
 -- --------------------------------------------------------
 
 --
@@ -964,6 +1022,8 @@ INSERT INTO `vendor_urls` (`vendor_url_id`, `vendor_url_main_id`, `vendor_url_na
 (5, 2, 'WEBSITE', 'https://idfcfirstbank.com', '2024-09-30 07:02:59 PM', '2024-09-30 07:02:59 PM', 1, 1, 1, NULL),
 (6, 3, 'WEBSITE', 'http://optechaircon.com', '2024-09-30 07:10:21 PM', '2024-09-30 07:10:21 PM', 1, 1, 1, NULL);
 
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 --
 -- Indexes for dumped tables
 --
@@ -999,18 +1059,22 @@ ALTER TABLE `config_pgs`
   ADD PRIMARY KEY (`ConfigPgId`);
 
 --
+<<<<<<< HEAD
 -- Indexes for table `config_url_types`
 --
 ALTER TABLE `config_url_types`
   ADD PRIMARY KEY (`cut_id`);
 
 --
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- Indexes for table `config_values`
 --
 ALTER TABLE `config_values`
   ADD PRIMARY KEY (`ConfigValueId`);
 
 --
+<<<<<<< HEAD
 -- Indexes for table `config_vendor_categories`
 --
 ALTER TABLE `config_vendor_categories`
@@ -1023,6 +1087,8 @@ ALTER TABLE `config_vendor_types`
   ADD PRIMARY KEY (`vendor_type_id`);
 
 --
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- Indexes for table `systemlogs`
 --
 ALTER TABLE `systemlogs`
@@ -1041,6 +1107,7 @@ ALTER TABLE `user_password_change_requests`
   ADD PRIMARY KEY (`PasswordChangeReqId`);
 
 --
+<<<<<<< HEAD
 -- Indexes for table `vendor`
 --
 ALTER TABLE `vendor`
@@ -1185,6 +1252,8 @@ ALTER TABLE `vendor_urls`
   ADD PRIMARY KEY (`vendor_url_id`);
 
 --
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -1219,18 +1288,22 @@ ALTER TABLE `config_pgs`
   MODIFY `ConfigPgId` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT for table `config_url_types`
 --
 ALTER TABLE `config_url_types`
   MODIFY `cut_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- AUTO_INCREMENT for table `config_values`
 --
 ALTER TABLE `config_values`
   MODIFY `ConfigValueId` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=127;
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT for table `config_vendor_categories`
 --
 ALTER TABLE `config_vendor_categories`
@@ -1243,6 +1316,8 @@ ALTER TABLE `config_vendor_types`
   MODIFY `vendor_type_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- AUTO_INCREMENT for table `systemlogs`
 --
 ALTER TABLE `systemlogs`
@@ -1259,6 +1334,7 @@ ALTER TABLE `users`
 --
 ALTER TABLE `user_password_change_requests`
   MODIFY `PasswordChangeReqId` int(100) NOT NULL AUTO_INCREMENT;
+<<<<<<< HEAD
 
 --
 -- AUTO_INCREMENT for table `vendor`
@@ -1403,6 +1479,8 @@ ALTER TABLE `vendor_tasks_members`
 --
 ALTER TABLE `vendor_urls`
   MODIFY `vendor_url_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+=======
+>>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
