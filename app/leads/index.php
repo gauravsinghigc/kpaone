@@ -2,7 +2,7 @@
 $Dir = "../..";
 require $Dir . '/acm/SysFileAutoLoader.php';
 require $Dir . '/handler/AuthController/AuthAccessController.php';
-require $Dir . "/app/enquiries/HeaderRequest/HeaderRequest.php";
+require $Dir . "/app/vendorsleads/HeaderRequest/HeaderRequest.php";
 
 
 //pagevariables
@@ -21,8 +21,7 @@ $PageDescription = "Manage all customers";
   <?php include $Dir . "/assets/HeaderFiles.php"; ?>
   <script type="text/javascript">
     function SidebarActive() {
-      document.getElementById("Enquiries").classList.add("active");
-      document.getElementById("<?php echo $CurrentActiveKey; ?>").classList.add("active");
+      document.getElementById("leadsnav").classList.add("active");
     }
     window.onload = SidebarActive;
   </script>

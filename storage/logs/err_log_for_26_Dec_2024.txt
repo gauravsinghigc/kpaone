@@ -1,0 +1,72 @@
+[26-Dec-2024 10:05:11 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in C:\xampp\htdocs\kpaone\modules\AuthUserModules.php on line 11
+[26-Dec-2024 10:05:11 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserFullName" in C:\xampp\htdocs\kpaone\include\common\TopHeader.php:22
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\index.php(25): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\common\TopHeader.php on line 22
+[26-Dec-2024 10:14:55 Asia/Calcutta] PHP Warning:  Undefined variable $AllCategorySQL in C:\xampp\htdocs\kpaone\app\products\index.php on line 92
+[26-Dec-2024 10:14:55 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'limit 0, 10' at line 1 in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), ' limit 0, 10')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(42): SELECT(' limit 0, 10')
+#2 C:\xampp\htdocs\kpaone\app\products\index.php(92): SET_SQL(' limit 0, 10', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 12
+[26-Dec-2024 10:19:29 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\app\products\update\index.php on line 7
+[26-Dec-2024 10:19:48 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\app\products\update\index.php on line 7
+[26-Dec-2024 10:22:20 Asia/Calcutta] PHP Warning:  Undefined array key "product_more_details" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 189
+[26-Dec-2024 10:25:09 Asia/Calcutta] PHP Warning:  Undefined array key "product_more_details" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 189
+[26-Dec-2024 10:25:38 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\app\products\update\index.php on line 7
+[26-Dec-2024 10:33:00 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:33:00 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:33:00 Asia/Calcutta] PHP Warning:  Undefined array key "product_more_details" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 134
+[26-Dec-2024 10:33:47 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\app\products\update\index.php on line 7
+[26-Dec-2024 10:34:18 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:34:18 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:34:18 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 148
+[26-Dec-2024 10:34:18 Asia/Calcutta] PHP Warning:  Undefined array key "product_more_details" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 170
+[26-Dec-2024 10:35:15 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\app\products\update\index.php on line 7
+[26-Dec-2024 10:35:40 Asia/Calcutta] PHP Warning:  Undefined array key "product_description" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[26-Dec-2024 10:36:23 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:36:23 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:36:23 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 148
+[26-Dec-2024 10:36:31 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:36:31 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:36:31 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 148
+[26-Dec-2024 10:36:50 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:36:50 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:36:50 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 148
+[26-Dec-2024 10:37:59 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:37:59 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 10:37:59 Asia/Calcutta] PHP Warning:  Undefined array key "products_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 148
+[26-Dec-2024 11:18:07 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:18:07 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:18:28 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:18:28 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:22:05 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:22:05 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:24:04 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:24:04 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:24:04 Asia/Calcutta] PHP Warning:  Undefined array key "true" in C:\xampp\htdocs\kpaone\acm\SysModules\PROCESS_Modules\Handler.php on line 59
+[26-Dec-2024 11:24:04 Asia/Calcutta] PHP Warning:  Undefined array key "false" in C:\xampp\htdocs\kpaone\acm\SysModules\PROCESS_Modules\Handler.php on line 59
+[26-Dec-2024 11:24:24 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:24:24 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:26:01 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:26:01 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:26:01 Asia/Calcutta] PHP Warning:  Undefined array key "true" in C:\xampp\htdocs\kpaone\acm\SysModules\PROCESS_Modules\Handler.php on line 58
+[26-Dec-2024 11:26:01 Asia/Calcutta] PHP Warning:  Undefined array key "false" in C:\xampp\htdocs\kpaone\acm\SysModules\PROCESS_Modules\Handler.php on line 58
+[26-Dec-2024 11:26:20 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\kpaone\auth\logout\index.php on line 4
+[26-Dec-2024 11:28:13 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:28:13 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:28:47 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:28:47 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:29:24 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:29:24 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:31:00 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:31:00 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:31:32 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:31:32 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:33:45 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 11:33:45 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 12:47:06 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[26-Dec-2024 12:47:06 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10

@@ -40,7 +40,7 @@ Define("SUPPORT_TYPE", [
 //Vendor Type Status
 
 Define("COMMON_STATUS", [
-    "" => "Select Vendor Type Status",
+    "" => "Select Status",
     "1" => "Active",
     "2" => "Inactive",
 ]);

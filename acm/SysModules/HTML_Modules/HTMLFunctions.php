@@ -234,6 +234,7 @@ function StatusView($data)
 }
 
 //status view
+
 function StatusViewWithText($data)
 {
   if ($data == "1" or $data == 1 or $data == "Active" or $data == "ACTIVE") {

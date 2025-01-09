@@ -51,12 +51,11 @@ function DeleteReqHandler($valid, array $Requestings, array $feedback = [false])
     if ($CheckStatus == true) {
         foreach ($Requestings as $key => $value) {
             $Response = DELETE_FROM("$key", "$value");
-            $GetData = SET_SQL("SELECT * FROM $key where $value", false);
         }
     } else {
         $Response = false;
     }
-    return RESPONSE($Response, $feedback['true'], $feedback['false']);
+    return RESPONSE($Response, $feedback[true], $feedback[false]);
 }
 
 //function HandleInvalidData()

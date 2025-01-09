@@ -8,13 +8,13 @@ DEFINE("NAVIGATION_MENUS",  [
         "title" => "Dashboard",
         "counts" => "0"
     ],
-    "enquiries" => [
-        "url" => DOMAIN . "/app/enquiries",
-        "icon" => "info",
+    "EnqNavLinks" => [
+        "url" => DOMAIN . "/app/vendorsleads",
+        "icon" => "briefcase",
         "title" => "All Enquiries",
         "counts" => "0"
     ],
-    "leads" => [
+    "leadsnav" => [
         "url" => DOMAIN . "/app/leads",
         "icon" => "star",
         "title" => "All Leads",
@@ -24,6 +24,18 @@ DEFINE("NAVIGATION_MENUS",  [
         "url" => DOMAIN . "/app/vendors",
         "icon" => "truck",
         "title" => "All Vendors",
+        "counts" => "0"
+    ],
+    "subscriptions" => [
+        "url" => DOMAIN . "/app/subscriptions",
+        "icon" => "refresh",
+        "title" => "All Subscriptions",
+        "counts" => "0"
+    ],
+    "products" => [
+        "url" => DOMAIN . "/app/products",
+        "icon" => "table",
+        "title" => "All Products",
         "counts" => "0"
     ],
     "users" => [
@@ -371,7 +383,7 @@ DEFINE(
             'module' => 'view_dashboard.php'
         ],
         'v_contracts' => [
-            'name' => 'Vendor Contracts',
+            'name' => 'Vendor Leads',
             'icon' => 'fa fa-file-pdf',
             'module' => 'view_contracts.php'
         ],
@@ -380,28 +392,13 @@ DEFINE(
             'icon' => 'fa fa-refresh',
             'module' => 'view_subscriptions.php'
         ],
-        'v_contract_invoices' => [
-            'name' => 'Vendor Contract Invoices',
-            'icon' => 'fa fa-file-archive',
-            'module' => 'view_contract_invoices.php'
-        ],
-        'v_contract_payments' => [
-            'name' => 'Vendor Contract Payments',
-            'icon' => 'fa fa-exchange',
-            'module' => 'view_contract_payments.php'
-        ],
-        'v_purchase_orders' => [
-            'name' => 'Vendor Purchase Orders',
-            'icon' => 'fa fa-check',
-            'module' => 'view_purchase_orders.php'
-        ],
         'v_purchase_invoices' => [
-            'name' => 'Vendor Purchase Invoices',
+            'name' => 'Vendor Invoices',
             'icon' => 'fa fa-file-excel',
             'module' => 'view_purchase_invoices.php'
         ],
         'v_purchase_payments' => [
-            'name' => 'Vendor Purchase Payments',
+            'name' => 'Vendor Payments',
             'icon' => 'fa fa-arrow-up',
             'module' => 'view_purchase_payments.php'
         ],
@@ -410,55 +407,15 @@ DEFINE(
             'icon' => 'fa fa-file',
             'module' => 'view_documents.php'
         ],
-        'v_products_services' => [
-            'name' => 'Vendor Products/Services',
-            'icon' => 'fa fa-list',
-            'module' => 'view_products_services.php'
-        ],
-        'v_connected_members' => [
-            'name' => 'Vendor Connected Members',
-            'icon' => 'fa fa-users',
-            'module' => 'view_connected_members.php'
-        ],
         'v_addresses' => [
             'name' => 'Vendor Addresses',
             'icon' => 'fa fa-map-marker',
             'module' => 'view_addresses.php'
         ],
-        'v_urls_website' => [
-            'name' => 'Vendor Urls/Website',
-            'icon' => 'fa fa-link',
-            'module' => 'view_urls_website.php'
-        ],
-        'v_reviews' => [
-            'name' => 'Vendor Reviews',
-            'icon' => 'fa fa-star',
-            'module' => 'view_reviews.php'
-        ],
-        'v_tasks_activities' => [
-            'name' => 'Vendor Task & Activities',
-            'icon' => 'fa fa-tasks',
-            'module' => 'view_tasks_activities.php'
-        ],
-        'v_reminders_alerts' => [
-            'name' => 'Vendor Reminders & Alerts',
-            'icon' => 'fa fa-bell',
-            'module' => 'view_reminders_alerts.php'
-        ],
-        'v_accounts_ledger' => [
-            'name' => 'Vendor Accounts & Ledger',
-            'icon' => 'fa fa-calculator',
-            'module' => 'view_accounts_ledger.php'
-        ],
         'v_profile' => [
             'name' => 'Vendor Profile',
             'icon' => 'fa fa-user',
             'module' => 'view_profile.php'
-        ],
-        'v_support' => [
-            'name' => 'Vendor Support & Helpdesk',
-            'icon' => 'fa fa-info-circle',
-            'module' => 'view_helpdesk.php'
         ],
         'v_logs' => [
             'name' => 'Vendor Logs',
@@ -622,4 +579,108 @@ DEFINE("LEAD_MENUS", [
         'dir' => 'website_enquiries.php',
         'icon' => "users"
     ],
+]);
+
+//define measurement units
+define("MEASUREMENT_UNITS", [
+    // Length/Distance
+    "meter" => "PER METER",
+    "kilometer" => "PER KILOMETER",
+    "centimeter" => "PER CENTIMETER",
+    "millimeter" => "PER MILLIMETER",
+    "micrometer" => "PER MICROMETER",
+    "nanometer" => "PER NANOMETER",
+    "mile" => "PER MILE",
+    "yard" => "PER YARD",
+    "foot" => "PER FOOT",
+    "inch" => "PER INCH",
+    "nautical_mile" => "PER NAUTICAL MILE",
+
+    // Mass/Weight
+    "kilogram" => "PER KILOGRAM",
+    "gram" => "PER GRAM",
+    "milligram" => "PER MILLIGRAM",
+    "microgram" => "PER MICROGRAM",
+    "metric_ton" => "PER METRIC TON",
+    "pound" => "PER POUND",
+    "ounce" => "PER OUNCE",
+    "stone" => "PER STONE",
+    "ton_us" => "PER TON (US)",
+    "long_ton" => "PER LONG TON",
+
+    // Volume
+    "liter" => "PER LITER",
+    "milliliter" => "PER MILLILITER",
+    "cubic_meter" => "PER CUBIC METER",
+    "gallon_us" => "PER GALLON (US)",
+    "gallon_uk" => "PER GALLON (UK)",
+    "quart" => "PER QUART",
+    "pint" => "PER PINT",
+    "cup" => "PER CUP",
+    "fluid_ounce" => "PER FLUID OUNCE",
+    "cubic_inch" => "PER CUBIC INCH",
+    "cubic_foot" => "PER CUBIC FOOT",
+
+    // Area
+    "square_meter" => "PER SQUARE METER",
+    "square_kilometer" => "PER SQUARE KILOMETER",
+    "hectare" => "PER HECTARE",
+    "acre" => "PER ACRE",
+    "square_foot" => "PER SQUARE FOOT",
+    "square_yard" => "PER SQUARE YARD",
+    "square_inch" => "PER SQUARE INCH",
+
+    // Temperature
+    "celsius" => "PER CELSIUS",
+    "fahrenheit" => "PER FAHRENHEIT",
+    "kelvin" => "PER KELVIN",
+
+    // Speed/Velocity
+    "meter_per_second" => "PER METER PER SECOND",
+    "kilometer_per_hour" => "PER KILOMETER PER HOUR",
+    "mile_per_hour" => "PER MILE PER HOUR",
+    "knots" => "PER KNOTS",
+
+    // Energy
+    "joule" => "PER JOULE",
+    "calorie" => "PER CALORIE",
+    "kilocalorie" => "PER KILOCALORIE",
+    "kilowatt_hour" => "PER KILOWATT HOUR",
+
+    // Power
+    "watt" => "PER WATT",
+    "kilowatt" => "PER KILOWATT",
+    "horsepower" => "PER HORSEPOWER",
+
+    // Pressure
+    "pascal" => "PER PASCAL",
+    "bar" => "PER BAR",
+    "atmosphere" => "PER ATMOSPHERE",
+    "psi" => "PER PSI",
+
+    // Force
+    "newton" => "PER NEWTON",
+    "pound_force" => "PER POUND FORCE",
+
+    // Time
+    "second" => "PER SECOND",
+    "minute" => "PER MINUTE",
+    "hour" => "PER HOUR",
+    "day" => "PER DAY",
+    "week" => "PER WEEK",
+    "month" => "PER MONTH",
+    "year" => "PER YEAR",
+
+    // Frequency
+    "hertz" => "PER HERTZ",
+
+    // Electric Current
+    "ampere" => "PER AMPERE",
+    "coulomb" => "PER COULOMB",
+
+    // Electric Voltage
+    "volt" => "PER VOLT",
+
+    // Electric Resistance
+    "ohm" => "PER OHM"
 ]);

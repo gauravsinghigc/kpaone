@@ -28,7 +28,7 @@ function UPLOAD_FILES($dir, $checkfile = false, $FilName, $NewFile, array $allow
   if ($allowedfiles == null) {
 
     //files allowed by default
-    $allowedfiles = array('jpg', 'jpeg', 'png', 'gif', 'pdf', 'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'txt', 'zip', 'rar', 'gz', 'tar', '7z');
+    $allowedfiles = array('jpg', "webp", 'jpeg', 'png', 'gif', 'pdf', 'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'txt', 'zip', 'rar', 'gz', 'tar', '7z');
 
     //check files allowed for upload
     if (!in_array($UploadFileType, $allowedfiles)) {

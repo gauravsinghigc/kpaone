@@ -29,10 +29,12 @@ require $Dir . '/handler/AuthController/AuthAccessController.php';
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 mt-1 mb-1">
-            <div class="flex-s-b">
-              <h4 class="app-heading w-100 mb-0"><i class='fa fa-list text-warning'></i> All Vendors </h4>
-              <a href="add/" class="btn btn-sm btn-danger btn-block ml-1 w-pr-15"><i class="fa fa-plus"></i> Add New Vendors</a>
-            </div>
+            <h4 class="app-heading w-100 mb-0"><i class='fa fa-list text-warning'></i> All Vendors </h4>
+          </div>
+
+          <div class="col-md-12 text-right">
+            <a href="add/" class="btn btn-sm btn-danger"><i class="fa fa-plus"></i> Add New Vendors</a>
+            <a href="upload/" class="btn btn-sm btn-danger"><i class="fa fa-upload"></i> Upload Vendors</a>
           </div>
         </div>
         <?php include $Dir . "/app/vendors/sections/HeaderWidgets.php"; ?>

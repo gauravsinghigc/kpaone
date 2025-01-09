@@ -9,7 +9,7 @@ include $Dir . "/include/forms/app/CreateNewVendorContracts.php"; ?>
             <div class="">
                 <a href="#" onclick="Databar('CreateVendorContract')" class="btn btn-md btn-danger">
                     <i class="fa fa-plus"></i>
-                    Create New Contract
+                    Add New Leads
                 </a>
             </div>
         </div>

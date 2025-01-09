@@ -1,0 +1,293 @@
+[27-Dec-2024 08:24:13 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in C:\xampp\htdocs\kpaone\modules\AuthUserModules.php on line 11
+[27-Dec-2024 08:24:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserFullName" in C:\xampp\htdocs\kpaone\include\common\TopHeader.php:22
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\index.php(25): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\common\TopHeader.php on line 22
+[27-Dec-2024 08:50:10 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:50:10 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:50:10 Asia/Calcutta] PHP Warning:  Undefined array key "control_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 198
+[27-Dec-2024 08:50:10 Asia/Calcutta] PHP Warning:  Undefined array key "true" in C:\xampp\htdocs\kpaone\acm\SysModules\PROCESS_Modules\Handler.php on line 58
+[27-Dec-2024 08:50:10 Asia/Calcutta] PHP Warning:  Undefined array key "false" in C:\xampp\htdocs\kpaone\acm\SysModules\PROCESS_Modules\Handler.php on line 58
+[27-Dec-2024 08:50:40 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:50:40 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:50:40 Asia/Calcutta] PHP Warning:  Undefined array key "control_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 198
+[27-Dec-2024 08:50:47 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:50:47 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:50:47 Asia/Calcutta] PHP Warning:  Undefined array key "control_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 198
+[27-Dec-2024 08:50:52 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:50:52 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:50:52 Asia/Calcutta] PHP Warning:  Undefined array key "control_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 198
+[27-Dec-2024 08:51:11 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:51:11 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:53:24 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:53:24 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:56:00 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:56:00 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:56:00 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kpaone.sub_categories' doesn't exist in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Delete.php:16
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Delete.php(16): mysqli_query(Object(mysqli), 'DELETE from sub...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Delete.php(26): DELETE_SQL('DELETE from sub...')
+#2 C:\xampp\htdocs\kpaone\acm\SysModules\PROCESS_Modules\Handler.php(53): DELETE_FROM('sub_categories', 'categories_sub_...')
+#3 C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php(217): DeleteReqHandler('remove_sub_cate...', Array, Array)
+#4 C:\xampp\htdocs\kpaone\handler\ModuleController.php(10): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Delete.php on line 16
+[27-Dec-2024 08:57:01 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:57:01 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:57:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kpaone.sub_categories' doesn't exist in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Delete.php:16
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Delete.php(16): mysqli_query(Object(mysqli), 'DELETE from sub...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Delete.php(26): DELETE_SQL('DELETE from sub...')
+#2 C:\xampp\htdocs\kpaone\acm\SysModules\PROCESS_Modules\Handler.php(53): DELETE_FROM('sub_categories', 'categories_sub_...')
+#3 C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php(221): DeleteReqHandler('remove_sub_cate...', Array, Array)
+#4 C:\xampp\htdocs\kpaone\handler\ModuleController.php(10): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Delete.php on line 16
+[27-Dec-2024 08:57:22 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 08:57:22 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 09:01:54 Asia/Calcutta] PHP Warning:  require(C:\xampp\htdocs\kpaone\app\enquiries\HeaderRequest\HeaderRequest.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\leads\index.php on line 5
+[27-Dec-2024 09:01:54 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Failed opening required '../../app/enquiries/HeaderRequest/HeaderRequest.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\leads\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\kpaone\app\leads\index.php on line 5
+[27-Dec-2024 09:01:56 Asia/Calcutta] PHP Warning:  require(C:\xampp\htdocs\kpaone\app\enquiries\HeaderRequest\HeaderRequest.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\leads\index.php on line 5
+[27-Dec-2024 09:01:56 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Failed opening required '../../app/enquiries/HeaderRequest/HeaderRequest.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\leads\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\kpaone\app\leads\index.php on line 5
+[27-Dec-2024 09:02:04 Asia/Calcutta] PHP Warning:  require(../../app/enquiries/HeaderRequest/HeaderRequest.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\vendorsleads\index.php on line 5
+[27-Dec-2024 09:02:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Failed opening required '../../app/enquiries/HeaderRequest/HeaderRequest.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\vendorsleads\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\kpaone\app\vendorsleads\index.php on line 5
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_name in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_name in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_name in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_name in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_name in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:15 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_name in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:27:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:28:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:28:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:28:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:28:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:28:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:28:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:29:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:29:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:29:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:29:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:29:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:29:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 168
+[27-Dec-2024 09:30:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:39 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:39 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:30:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:21 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:31:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:32:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:32:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:32:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:32:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:32:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:32:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:33:26 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:33:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kpaone.subcategories' doesn't exist in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM s...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT * FROM s...')
+#2 C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php(177): FETCH('SELECT * FROM s...', 'categories_sub')
+#3 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Dec-2024 09:34:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'categories_id' in 'where clause' in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT * FROM c...')
+#2 C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php(177): FETCH('SELECT * FROM c...', 'categories_sub')
+#3 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:25 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[27-Dec-2024 09:34:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:34:50 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 171
+[27-Dec-2024 09:36:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:25 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:52 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:36:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:47:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:47:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:47:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:47:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:47:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:47:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_logo" in C:\xampp\htdocs\kpaone\acm\SysModules\FILE_Modules\UploadHandler.php on line 23
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\kpaone\acm\SysModules\FILE_Modules\UploadHandler.php on line 23
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_logo" in C:\xampp\htdocs\kpaone\acm\SysModules\FILE_Modules\UploadHandler.php on line 24
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\kpaone\acm\SysModules\FILE_Modules\UploadHandler.php on line 24
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 09:49:07 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 173
+[27-Dec-2024 10:13:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kpaone.vendors' doesn't exist in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM v...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT * FROM v...')
+#2 C:\xampp\htdocs\kpaone\app\vendorsleads\index.php(142): FETCH('SELECT * FROM v...', 'vendor_name')
+#3 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 12
+[27-Dec-2024 10:26:34 Asia/Calcutta] PHP Fatal error:  Cannot redeclare EnquiryStatus() (previously declared in C:\xampp\htdocs\kpaone\acm\SysModules\ENQUIRY_Modules\Enquiries.php:3) in C:\xampp\htdocs\kpaone\modules\ReturnStatus.php on line 33
+[27-Dec-2024 10:47:33 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 99
+[27-Dec-2024 10:47:33 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedback_msg" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 100
+[27-Dec-2024 10:47:33 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:47:33 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:49:21 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_id" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 93
+[27-Dec-2024 10:49:21 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedback_msg" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 101
+[27-Dec-2024 10:49:21 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:49:21 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:49:59 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedback_msg" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 101
+[27-Dec-2024 10:49:59 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:49:59 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:50:43 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:50:43 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:55:35 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 10:55:35 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 11:03:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[27-Dec-2024 11:03:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[27-Dec-2024 11:03:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[27-Dec-2024 11:03:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[27-Dec-2024 11:08:21 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 11:08:21 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 11:16:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[27-Dec-2024 11:16:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[27-Dec-2024 11:16:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[27-Dec-2024 11:16:49 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[27-Dec-2024 11:22:51 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function _DB_COMMAND_() in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php:21
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\vendors\details\views\view_purchase_payments.php(16): include()
+#1 C:\xampp\htdocs\kpaone\app\vendors\details\index.php(59): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php on line 21
+[27-Dec-2024 11:22:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function _DB_COMMAND_() in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php:21
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\vendors\details\views\view_purchase_payments.php(16): include()
+#1 C:\xampp\htdocs\kpaone\app\vendors\details\index.php(59): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php on line 21
+[27-Dec-2024 11:24:26 Asia/Calcutta] PHP Warning:  Undefined array key "RegUnitCost" in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php on line 11
+[27-Dec-2024 11:24:26 Asia/Calcutta] PHP Warning:  Undefined array key "RegUnitCost" in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php on line 217
+[27-Dec-2024 11:24:48 Asia/Calcutta] PHP Warning:  Undefined array key "RegUnitCost" in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php on line 217
+[27-Dec-2024 11:24:50 Asia/Calcutta] PHP Warning:  Undefined array key "RegUnitCost" in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php on line 217
+[27-Dec-2024 11:40:11 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in C:\xampp\htdocs\kpaone\modules\AuthUserModules.php on line 11
+[27-Dec-2024 11:40:11 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserFullName" in C:\xampp\htdocs\kpaone\include\common\TopHeader.php:22
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\index.php(25): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\common\TopHeader.php on line 22
+[27-Dec-2024 12:05:13 Asia/Calcutta] PHP Warning:  Undefined array key "VENDOR_ID" in C:\xampp\htdocs\kpaone\app\vendorsleads\index.php on line 137
+[27-Dec-2024 12:26:57 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[27-Dec-2024 12:26:57 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10

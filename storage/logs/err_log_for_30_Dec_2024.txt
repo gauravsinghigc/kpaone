@@ -1,0 +1,197 @@
+[30-Dec-2024 16:01:49 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in C:\xampp\htdocs\kpaone\modules\AuthUserModules.php on line 11
+[30-Dec-2024 16:01:49 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserFullName" in C:\xampp\htdocs\kpaone\include\common\TopHeader.php:22
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\index.php(25): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\common\TopHeader.php on line 22
+[30-Dec-2024 16:02:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:02:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:02:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:02:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:02:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:02:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:02:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:02:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:02:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:02:51 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:06:49 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:06:49 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:06:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'UserCreatedBy' in 'field list' in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Insert.php:51
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Insert.php(51): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 C:\xampp\htdocs\kpaone\handler\ModuleController\UserController.php(47): INSERT('users', Array)
+#2 C:\xampp\htdocs\kpaone\handler\ModuleController.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Insert.php on line 51
+[30-Dec-2024 16:17:31 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:17:31 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:18:08 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:18:08 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:19:22 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:19:22 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:20:44 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:20:44 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:21:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:21:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:21:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:21:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:24:35 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:24:35 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:24:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:24:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:24:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:24:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:24:35 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:25:57 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:25:57 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:25:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:25:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:25:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:25:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:25:57 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:26:38 Asia/Calcutta] PHP Warning:  Undefined array key "RegUnitCost" in C:\xampp\htdocs\kpaone\include\forms\Add-Payment-Record.php on line 217
+[30-Dec-2024 16:30:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:30:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:30:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:30:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:30:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:30:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:30:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:35:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:35:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:35:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:35:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:35:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:35:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:35:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:36:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:37:40 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedack_have_reminder" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 98
+[30-Dec-2024 16:37:40 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:37:40 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:37:44 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedack_have_reminder" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 98
+[30-Dec-2024 16:37:44 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:37:44 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:38:31 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:38:31 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:38:43 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedack_have_reminder" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 98
+[30-Dec-2024 16:38:43 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:38:43 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:39:12 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:39:12 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 16:41:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:41:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:41:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:41:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:41:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:41:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:41:13 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:43:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:43:37 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:44:56 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:48:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:48:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:48:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:48:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:48:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:48:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:48:03 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 16:48:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:48:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:48:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:48:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 16:48:22 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:03:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:03:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:03:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:03:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:03:16 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:04:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:04:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:04:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:04:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:04:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:04:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:04:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:04:51 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedack_have_reminder" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 98
+[30-Dec-2024 17:04:51 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 17:04:51 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 17:05:03 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 17:05:03 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 17:05:18 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedack_have_reminder" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 98
+[30-Dec-2024 17:05:18 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 17:05:18 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 17:05:30 Asia/Calcutta] PHP Warning:  Undefined array key "vendor_feedack_have_reminder" in C:\xampp\htdocs\kpaone\handler\ModuleController\EnquiryController.php on line 98
+[30-Dec-2024 17:05:30 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\handler\ModuleController\formhandler): Failed to open stream: Permission denied in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 17:05:30 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\handler/ModuleController/formhandler' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\handler\ModuleController.php on line 10
+[30-Dec-2024 17:05:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:05:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:05:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:05:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:05:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:05:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:05:34 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$product_id in C:\xampp\htdocs\kpaone\app\vendorsleads\add\index.php on line 189
+[30-Dec-2024 17:06:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:17 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:06:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:07:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:07:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:07:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:07:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174
+[30-Dec-2024 17:07:02 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$config_subscription_status in C:\xampp\htdocs\kpaone\include\forms\Add-Subsciption-Plans.php on line 174

@@ -1,0 +1,142 @@
+[24-Dec-2024 11:04:00 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in C:\xampp\htdocs\kpaone\modules\AuthUserModules.php on line 11
+[24-Dec-2024 11:04:00 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserFullName" in C:\xampp\htdocs\kpaone\include\common\TopHeader.php:22
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\index.php(25): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\common\TopHeader.php on line 22
+[24-Dec-2024 16:54:23 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in C:\xampp\htdocs\kpaone\modules\AuthUserModules.php on line 11
+[24-Dec-2024 16:54:23 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserFullName" in C:\xampp\htdocs\kpaone\include\common\TopHeader.php:22
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\index.php(25): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\common\TopHeader.php on line 22
+[24-Dec-2024 17:26:00 Asia/Calcutta] PHP Warning:  include(C:\xampp\htdocs\kpaone\app\products\brands/sections/SideMenus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 49
+[24-Dec-2024 17:26:00 Asia/Calcutta] PHP Warning:  include(): Failed opening 'C:\xampp\htdocs\kpaone\app\products\brands/sections/SideMenus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 49
+[24-Dec-2024 18:06:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:09:01 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:09:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\kpaone\app\products\brands\index.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 96
+[24-Dec-2024 18:09:27 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:09:27 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\kpaone\app\products\brands\index.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 96
+[24-Dec-2024 18:09:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:09:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\kpaone\app\products\brands\index.php:96
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 96
+[24-Dec-2024 18:10:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:11:08 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:12:19 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:12:26 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:15:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:20:32 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:21:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:21:06 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 24
+[24-Dec-2024 18:21:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:21:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 24
+[24-Dec-2024 18:21:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:21:44 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 24
+[24-Dec-2024 18:22:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:22:09 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:22:26 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:22:26 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:22:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:22:30 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:22:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:22:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:22:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:22:45 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:23:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:23:10 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:23:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:23:14 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:23:24 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:23:24 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:23:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:23:33 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:23:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:23:38 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:23:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:23:59 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:24:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:24:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:24:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:24:53 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:25:55 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_image in C:\xampp\htdocs\kpaone\app\products\brands\index.php on line 89
+[24-Dec-2024 18:25:55 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:26:12 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:26:29 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:26:36 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:26:41 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:26:55 Asia/Calcutta] PHP Warning:  Undefined property: stdClass::$brand_status in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 18:45:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROMBrand WHERE brand_name ORDER BY brands_id DESC limit 0, 10' at line 1 in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROMBr...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROMBr...')
+#2 C:\xampp\htdocs\kpaone\app\products\brands\index.php(89): SET_SQL('SELECT * FROMBr...', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 12
+[24-Dec-2024 18:46:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'brand_name' in 'where clause' in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM b...')
+#1 C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM b...')
+#2 C:\xampp\htdocs\kpaone\app\products\brands\index.php(89): SET_SQL('SELECT * FROM b...', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 12
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\app\products\categories\index.php on line 109
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Attempt to read property "categories_created_by" on null in C:\xampp\htdocs\kpaone\app\products\categories\index.php on line 109
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 1
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 1
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 11
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 11
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 12
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_image" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 12
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 18
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_name" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 18
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_status" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 36
+[24-Dec-2024 19:16:21 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 36
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 1
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 1
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 11
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 11
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 12
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_image" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 12
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 18
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_name" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 18
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_status" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 36
+[24-Dec-2024 19:16:35 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 36
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 1
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 1
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 11
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 11
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 12
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_image" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 12
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 18
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_name" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 18
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_status" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 23
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Undefined variable $Brand in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 36
+[24-Dec-2024 19:16:46 Asia/Calcutta] PHP Warning:  Attempt to read property "brands_id" on null in C:\xampp\htdocs\kpaone\include\forms\Update-Brands-Records.php on line 36
+[24-Dec-2024 19:17:14 Asia/Calcutta] PHP Warning:  Undefined variable $categories_name in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 74
+[24-Dec-2024 19:48:39 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub_image" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Dec-2024 19:48:39 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub_name" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Dec-2024 19:49:01 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub_image" in C:\xampp\htdocs\kpaone\acm\SysModules\CRUD_Modules\Select.php on line 32
+[24-Dec-2024 20:14:37 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub_image" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 101
+[24-Dec-2024 20:15:41 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub_image" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 101
+[24-Dec-2024 20:15:46 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub_image" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 101
+[24-Dec-2024 20:16:33 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub_image" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 101
+[24-Dec-2024 20:16:42 Asia/Calcutta] PHP Warning:  Undefined array key "categories_sub_image" in C:\xampp\htdocs\kpaone\handler\ModuleController\ProductController.php on line 101
+[24-Dec-2024 20:54:30 Asia/Calcutta] PHP Warning:  Undefined array key "LOGIN_USER_ID" in C:\xampp\htdocs\kpaone\modules\AuthUserModules.php on line 11
+[24-Dec-2024 20:54:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserFullName" in C:\xampp\htdocs\kpaone\include\common\TopHeader.php:22
+Stack trace:
+#0 C:\xampp\htdocs\kpaone\app\index.php(25): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\kpaone\include\common\TopHeader.php on line 22

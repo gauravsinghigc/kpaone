@@ -79,3 +79,13 @@ function FileTypesAndExtensions($path)
     $fileTypes = $extensions;
     return $fileTypes;
 }
+
+//check file is uploaded or not
+function CheckFileUploadStatus($fileKey)
+{
+    if (isset($_FILES[$fileKey]) && $_FILES[$fileKey]['error'] === UPLOAD_ERR_OK) {
+        return true;
+    } else {
+        return null;
+    }
+}

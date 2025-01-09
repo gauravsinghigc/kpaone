@@ -3,11 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
-<<<<<<< HEAD
--- Generation Time: Nov 27, 2024 at 04:36 AM
-=======
--- Generation Time: Nov 18, 2024 at 03:26 AM
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
+-- Generation Time: Dec 30, 2024 at 05:03 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -22,12 +18,99 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
-<<<<<<< HEAD
 -- Database: `kpaone`
-=======
--- Database: `system`
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `brands`
+--
+
+CREATE TABLE `brands` (
+  `brands_id` int(10) NOT NULL,
+  `brands_name` varchar(255) NOT NULL,
+  `brands_image` varchar(525) NOT NULL,
+  `brands_created_at` varchar(45) NOT NULL,
+  `brands_updated_at` varchar(45) NOT NULL,
+  `brands_created_by` int(10) NOT NULL,
+  `brands_updated_by` int(10) NOT NULL,
+  `brands_status` int(2) NOT NULL DEFAULT 1
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `brands`
+--
+
+INSERT INTO `brands` (`brands_id`, `brands_name`, `brands_image`, `brands_created_at`, `brands_updated_at`, `brands_created_by`, `brands_updated_by`, `brands_status`) VALUES
+(1, 'TEST BRAND 1', 'TEST_BRAND_1_brand__24_Dec_2024_06_12_10_55242605492_.gif', '2024-12-24 05:59:27 PM', '2024-12-24 06:28:10 PM', 1, 1, 1),
+(2, 'TEST NAME 2', 'TEST_NAME_2_brand__24_Dec_2024_06_12_47_82971769319_.gif', '2024-12-24 06:36:47 PM', '2024-12-24 06:36:47 PM', 1, 1, 1),
+(3, 'TEST 3', 'TEST_3_brand__24_Dec_2024_06_12_01_74392784386_.png', '2024-12-24 06:37:01 PM', '2024-12-24 06:56:44 PM', 1, 1, 1),
+(5, 'TEST 5', 'TEST_5_brand__24_Dec_2024_06_12_12_21598637366_.webp', '2024-12-24 06:38:12 PM', '2024-12-24 06:38:12 PM', 1, 1, 1),
+(6, 'TEST 6', 'TEST_6_brand__24_Dec_2024_06_12_57_16738200104_.webp', '2024-12-24 06:40:57 PM', '2024-12-24 06:40:57 PM', 1, 1, 1),
+(7, 'BRAND 7', 'BRAND_7_brand__24_Dec_2024_08_12_34_97231627196_.jpg', '2024-12-24 08:18:34 PM', '2024-12-24 08:18:34 PM', 1, 1, 1),
+(8, 'BRAND 8', 'BRAND_8_brand__24_Dec_2024_08_12_56_60682643676_.gif', '2024-12-24 08:18:56 PM', '2024-12-24 08:18:56 PM', 1, 1, 1),
+(9, 'BRAND 9', 'BRAND_9_brand__24_Dec_2024_08_12_09_40296696376_.gif', '2024-12-24 08:19:09 PM', '2024-12-24 08:19:09 PM', 1, 1, 1),
+(10, 'BRAND 10', 'BRAND_10_brand__24_Dec_2024_08_12_25_27194050004_.gif', '2024-12-24 08:19:25 PM', '2024-12-24 08:19:25 PM', 1, 1, 1),
+(11, 'brand 11', 'brand_11_brand__25_Dec_2024_07_12_50_87123347651_.jpg', '2024-12-24 08:19:35 PM', '2024-12-25 07:28:50 AM', 1, 1, 1),
+(12, 'GAURAV SINGH', 'GAURAV_SINGH_brand__24_Dec_2024_08_12_23_81840524377_.gif', '2024-12-24 08:55:23 PM', '2024-12-24 08:55:23 PM', 1, 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `categories`
+--
+
+CREATE TABLE `categories` (
+  `categories_id` int(10) NOT NULL,
+  `categories_name` varchar(255) NOT NULL,
+  `categories_image` varchar(525) NOT NULL,
+  `categories_created_at` varchar(45) NOT NULL,
+  `categories_updated_at` varchar(45) NOT NULL,
+  `categories_created_by` int(10) NOT NULL,
+  `categories_updated_by` int(10) NOT NULL,
+  `categories_status` int(2) NOT NULL DEFAULT 1
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `categories`
+--
+
+INSERT INTO `categories` (`categories_id`, `categories_name`, `categories_image`, `categories_created_at`, `categories_updated_at`, `categories_created_by`, `categories_updated_by`, `categories_status`) VALUES
+(2, 'Category B', 'Category_B__24_Dec_2024_07_12_34_15988252724_.gif', '2024-12-24 07:18:34 PM', '2024-12-24 07:18:34 PM', 1, 1, 1),
+(3, 'CATEGORY G', 'CATEGORY_C__24_Dec_2024_07_12_39_78570522648_.gif', '2024-12-24 07:19:39 PM', '2024-12-24 07:21:10 PM', 1, 1, 1),
+(4, 'CATEGORY D', 'CATEGORY_D__24_Dec_2024_07_12_01_84513781278_.gif', '2024-12-24 07:20:01 PM', '2024-12-24 07:20:01 PM', 1, 1, 1),
+(5, 'CATEGORY E', 'CATEGORY_E__24_Dec_2024_07_12_39_83389239398_.gif', '2024-12-24 07:20:39 PM', '2024-12-24 07:20:39 PM', 1, 1, 1),
+(6, 'CATEGORY F', 'CATEGORY_F__24_Dec_2024_07_12_02_15325939314_.gif', '2024-12-24 07:21:02 PM', '2024-12-24 07:21:02 PM', 1, 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `categories_sub`
+--
+
+CREATE TABLE `categories_sub` (
+  `categories_sub_id` int(10) NOT NULL,
+  `categories_sub_name` varchar(255) NOT NULL,
+  `categories_sub_image` varchar(525) NOT NULL,
+  `categories_sub_status` int(10) NOT NULL,
+  `categories_sub_created_at` varchar(45) NOT NULL,
+  `categories_sub_updated_at` varchar(45) NOT NULL,
+  `categories_sub_created_by` int(10) NOT NULL,
+  `categories_sub_updated_by` int(10) NOT NULL,
+  `categories_main_id` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `categories_sub`
+--
+
+INSERT INTO `categories_sub` (`categories_sub_id`, `categories_sub_name`, `categories_sub_image`, `categories_sub_status`, `categories_sub_created_at`, `categories_sub_updated_at`, `categories_sub_created_by`, `categories_sub_updated_by`, `categories_main_id`) VALUES
+(1, 'SUB CATEGORY A', 'SUB_CATEGORY_A__24_Dec_2024_08_12_20_67967079865_.webp', 1, '2024-12-24 07:44:43 PM', '2024-12-24 08:17:20 PM', 1, 1, 6),
+(3, 'SUBCATE2', 'SUBCATE2__24_Dec_2024_08_12_37_32565675679_.gif', 1, '', '2024-12-24 08:14:37 PM', 0, 1, 2),
+(4, 'SUB CATEGORY 5', 'SUB_CATEGORY_5__24_Dec_2024_08_12_13_15203763744_.gif', 1, '2024-12-24 08:18:13 PM', '2024-12-24 08:18:13 PM', 1, 1, 5),
+(8, 'NEW CATEGORY', '', 1, '2024-12-26 11:29:24 AM', '2024-12-26 11:29:24 AM', 1, 1, 3),
+(9, 'NEW CATEGORY 123', '', 1, '2024-12-26 11:31:00 AM', '2024-12-26 11:31:00 AM', 1, 1, 4);
 
 -- --------------------------------------------------------
 
@@ -59,7 +142,6 @@ CREATE TABLE `configurations` (
 --
 
 INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configurationvalue`, `configurationtype`, `configurationsupportivetext`) VALUES
-<<<<<<< HEAD
 (1, 'APP_NAME', 'KP ADITYA CO PRIVATE LIMITED', 'TEXT', 'null'),
 (2, 'TAGLINE', 'SYMPLIFYING CUNSTRUCTIONS BY DELIVERING VALUES', 'text', 'null'),
 (3, 'OWNER_NAME', 'GAURAV SINGH', 'text', 'null'),
@@ -67,15 +149,6 @@ INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configur
 (5, 'PRIMARY_EMAIL', 'info@kpaditya.co.in', 'email', 'null'),
 (6, 'SHORT_DESCRIPTION', 'MEYzNm9DY282T3AyRHhJVmlWMUJiSjFuUnBuUURQQnpzb2wzQjJFcVB5Tisxem9Bc3RiSzNOY1FYeXltb2lQVzlydllmbXFyVjZ5UW5ySXRVMzF4YWowaEQyNmcraGd2NDNnMjFGODgzd2RkZTFka0dsVE5nVmtYQlBsWmRyWk4zcG80OGFvN3pURjVZemt2RklxUEk2SU1saEQxYU1vbU4wU0lDYjBqNFR5SmlmaUh3Yk1lQ1ZlOTdHZ2h2cVZURHJVcGZ6eUo0Ti9lY0dnUUZFTHhpYkxkcmowZmxmVGQwdDg4TWtJVHhwRmNkb05kQlZoM0txY28xYnBnejJUbGtHYlpWSkkzZW92d2JHUXd3RFAxT1A5N2hmTmxxV0RRb2N0SUhRMTlxOVo4M05NZnRoblJPdXM2OHMxeEdOajhUVFdSOGlWOWZwZENLOGlkWnZDUU5RTmw5eitXdU5ZMjJIcXRaWkd5SUt6RlJ2MTFuZ1YxVncwS3BGWG84ZFh3K1Z1aEZ4UHgrSEI0c3dEYUJDeFdWZ0dxMjBrSTQ3bnJkWmg4eFlyWDZZTzM2eUFOYXpsSjJybjBSYXBHWDJ3N1pyMUVmRWtsQVdCMHJaM2NoT3NPS3Y2UHdiSlJtVkhxeEtOanJBbHcxRDRIY0w2eUVJU0tpTlN4Vks5YjBKZjQrL1pROTc4YXB2Q2RLMjlDWHFVcUFybFowdFN4ZnF1TGtYRW1zMkZCTk5kZkRpV0xwMDgwaWpLSWZXUHpkYUpGdTdONmljTzN4bmUzNkZBVWw2R3oyZz09', 'text', 'null'),
 (7, 'PRIMARY_ADDRESS', 'RFJSZTBmVHhhY2J2cTVTOFFZMlBHcGhZaGZYTG9HRkpLcXFpaTlveXM3b0wxT25yVytvYVRMSXdqdEw2ekxMeTNIYnlhVkdSNEdBSnFoT1JjdHptU1NNQ2g1REoweWRHZFdvNzBvUGIrb0VDWm9GeWhqSlcwVittZW9ZN1Q3YkQ=', 'address', 'null'),
-=======
-(1, 'APP_NAME', 'ABC COMPANY', 'TEXT', 'null'),
-(2, 'TAGLINE', 'GSI SYS-APP', 'text', 'null'),
-(3, 'OWNER_NAME', 'GAURAV SINGH', 'text', 'null'),
-(4, 'PRIMARY_PHONE', '0000000000', 'phone', 'null'),
-(5, 'PRIMARY_EMAIL', 'company@domain.tld', 'email', 'null'),
-(6, 'SHORT_DESCRIPTION', 'eWVMVlJmQnYvNUtpbmh6UHNDT0kyYVNTOFVxeWIrdmdMQjl1T0R3Q1BCZz0=', 'text', 'null'),
-(7, 'PRIMARY_ADDRESS', 'SVlZb2Urc1lOL2RheVFOdkdXUlJTdldldnJmT3RwYmxWSnZNa2JZeHJ2QkZadkM4ODVkR3pISVNXNHJMTUFyK041RGlydStTVG5qbjBTZlBDMVRYcFE9PQ==', 'address', 'null'),
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 (8, 'PRIMARY_MAP_LOCATION_LINK', 'aWpTWWNsdmhvbDBXM3M0NnVyRklGZz09', 'map', 'null'),
 (9, 'SENDER_MAIL_ID', 'sender@gmail.com', 'email', 'null'),
 (10, 'RECEIVER_MAIL', 'sender@domain.com', 'email', 'null'),
@@ -93,11 +166,7 @@ INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configur
 (24, 'CONTROL_NOTIFICATION', 'true', 'boolean', 'true, false'),
 (25, 'CONTROL_MSG_DISPLAY_TIME', '4500', 'number', '1000, 10000'),
 (26, 'CONTROL_APP_LOGS', 'false', 'boolean', 'true, false'),
-<<<<<<< HEAD
 (27, 'APP_LOGO', 'ABC_COMPANY__27_Nov_2024_08_11_03_82242389677_.png', 'img', 'null'),
-=======
-(27, 'APP_LOGO', 'ABC_COMPANY__17_Nov_2024_06_11_01_20390372946_.jpg', 'img', 'null'),
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 (28, 'SMS_OTP_TEMP_ID', 'null', 'text', 'null'),
 (29, 'PASS_RESET_OTP_TEMP', 'null', 'text', 'null'),
 (30, 'SMS_SENDER_ID', 'null', 'text', 'null'),
@@ -108,15 +177,9 @@ INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configur
 (35, 'ONLINE_PAYMENT_OPTION', 'false', 'boolean', 'true, false'),
 (36, 'CONTROL_NOTIFICATION_SOUND', 'true', 'boolean', 'true, false'),
 (37, 'FINANCIAL_YEAR', 'September - August', 'text', 'null'),
-<<<<<<< HEAD
 (38, 'GST_NO', '36AAICK1127D1ZX', 'text', 'null'),
 (39, 'COMPANY_TYPE', 'PUBLISHING', 'text', 'null'),
 (40, 'LOGIN_BG_IMAGE', 'ABC_COMPANY__27_Nov_2024_08_11_33_67168632264_.png', 'text', 'null'),
-=======
-(38, 'GST_NO', 'GSTNO1234567789', 'text', 'null'),
-(39, 'COMPANY_TYPE', 'PUBLISHING', 'text', 'null'),
-(40, 'LOGIN_BG_IMAGE', 'ABC_COMPANY__17_Nov_2024_06_11_56_64296375500_.jpg', 'text', 'null'),
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 (41, 'PRIMARY_AREA', 'M3RKYjIyemJJcnFXZ2xLdzZINzdMNVNqRVJFbkY2ZnpTQ1BmNFdQcUgrMD0=', 'text', 'null'),
 (42, 'PRIMARY_CITY', 'Q1o2a0w2NEpQOEFLTHA3ZHdNYjh4UT09', 'text', 'null'),
 (43, 'PRIMARY_STATE', 'Rm9nUDlDRTVkV20zWm8wMmEvMEpPZz09', 'text', 'null'),
@@ -144,15 +207,9 @@ INSERT INTO `configurations` (`configurationsid`, `configurationname`, `configur
 (65, 'MAXIMUM_SHORT_LEAVE_IN_MONTH', '3', 'text', 'null'),
 (66, 'DEDUCTION_AMOUNT_ON_PER_LATE', '0', 'text', 'null'),
 (67, 'EMP_CODE', 'RNA', 'text', 'null'),
-<<<<<<< HEAD
 (68, 'WEBSITE_LOGO_SQ', 'ABC_COMPANY__27_Nov_2024_08_11_10_96406725286_.png', 'text', 'null'),
 (69, 'WEBSITE_LOGO_REC', 'ABC_COMPANY__27_Nov_2024_08_11_18_70179380849_.png', 'text', 'null'),
 (70, 'FAVICON_ICON', 'ABC_COMPANY__27_Nov_2024_08_11_27_94145302569_.png', 'text', 'null');
-=======
-(68, 'WEBSITE_LOGO_SQ', 'ABC_COMPANY__17_Nov_2024_06_11_13_42198133738_.jpg', 'text', 'null'),
-(69, 'WEBSITE_LOGO_REC', 'ABC_COMPANY__17_Nov_2024_06_11_43_78423077929_.jpg', 'text', 'null'),
-(70, 'FAVICON_ICON', 'ABC_COMPANY__17_Nov_2024_06_11_49_63604552042_.jpg', 'text', 'null');
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 
 -- --------------------------------------------------------
 
@@ -178,11 +235,7 @@ CREATE TABLE `config_locations` (
 --
 
 INSERT INTO `config_locations` (`config_location_id`, `config_location_name`, `config_location_address`, `config_location_Latitude`, `config_location_Longitude`, `config_location_status`, `config_location_created_at`, `config_location_updated_at`, `config_location_created_by`, `config_location_updated_by`) VALUES
-<<<<<<< HEAD
 (1, 'NOIDA', 'UFdBZzAxbHNKN1ZIUThDdnNYWDk3bFJKMXJWRWJXVGpIYnZkbzF3aUFqZVdWaVpyWG9PdEV0VEFrajQxV3ZxNw==', '28.627348', '77.380244', 1, '2023-05-10 05:09:48 pm', '2024-11-27 08:32:25 AM', 1, 1);
-=======
-(1, 'NOIDA', 'L2pVb2Z2cjhxRVdYUUhlbmVIOHJpRXFRcG40bUhGL1FDUDZhMHp6U3d3OTgxNTlFV2l2R0NybzB5YkxTZnVKRg==', '28.627348', '77.380244', 1, '2023-05-10 05:09:48 pm', '2023-08-29 02:15:38 pm', 1, 1);
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 
 -- --------------------------------------------------------
 
@@ -204,11 +257,7 @@ CREATE TABLE `config_mail_sender` (
 --
 
 INSERT INTO `config_mail_sender` (`config_mail_sender_id`, `config_mail_sender_host`, `config_mail_sender_username`, `config_mail_sender_password`, `config_mail_sender_port`, `config_mail_sent_from`) VALUES
-<<<<<<< HEAD
 (1, 'smtp.hostinger.com', 'development@navix.in', 'Gsi@9810895713', '465', 'development@navix.in');
-=======
-(1, 'smtp.hostinger.com', 'noreply@domain.tld', 'SMTP$$Password', '465', 'noreply@domain.tld');
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 
 -- --------------------------------------------------------
 
@@ -235,7 +284,38 @@ INSERT INTO `config_pgs` (`ConfigPgId`, `ConfigPgProvider`, `ConfigPgMode`, `Con
 -- --------------------------------------------------------
 
 --
-<<<<<<< HEAD
+-- Table structure for table `config_subscriptions`
+--
+
+CREATE TABLE `config_subscriptions` (
+  `config_subs_id` int(10) NOT NULL,
+  `config_subscription_name` varchar(255) NOT NULL,
+  `config_subscription_pay_period` varchar(155) NOT NULL,
+  `config_subscription_payable_amount` int(10) NOT NULL,
+  `config_subscription_desc` varchar(10000) NOT NULL,
+  `config_subs_status` int(2) NOT NULL,
+  `config_subs_created_at` varchar(45) NOT NULL,
+  `config_subs_updated_at` varchar(45) NOT NULL,
+  `config_subs_created_by` int(10) NOT NULL,
+  `config_subs_updated_by` int(10) NOT NULL,
+  `config_subscription_short_name` varchar(255) NOT NULL,
+  `config_subscription_free_limits` int(10) NOT NULL,
+  `config_subscription_max_leads` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `config_subscriptions`
+--
+
+INSERT INTO `config_subscriptions` (`config_subs_id`, `config_subscription_name`, `config_subscription_pay_period`, `config_subscription_payable_amount`, `config_subscription_desc`, `config_subs_status`, `config_subs_created_at`, `config_subs_updated_at`, `config_subs_created_by`, `config_subs_updated_by`, `config_subscription_short_name`, `config_subscription_free_limits`, `config_subscription_max_leads`) VALUES
+(1, 'PLAN A', 'MONTHLY', 249, 'R2QwZE85cWtCaklKZ3FJV2JQOStvUllWakJoNVQ3aW9MNEc3NTlRRlExVHEvaEdqR1N6dFkyNXBmWGhtQ1Vycw==', 1, '2024-12-23', '2024-12-23', 1, 1, 'PLAN-A-249', 5, '60'),
+(2, 'PLAN B', 'QUATERLY', 699, 'RGVCajgzaVJ6bFJIQm01bHgvRHQvajdlV0kxbVNqMFpqc3BMMUNOL2paYjlBWUt2bzRTL3hIY2Z3SjZTcW9LWA==', 1, '2024-12-23', '2024-12-23', 1, 1, 'PLAN-B-699', 4, '45'),
+(3, 'PLAN C', 'HALF_YEARLY', 999, 'T0lqbzllbnlkUUI3VUxWa1BxM0ZEUT09', 1, '2024-12-23', '2024-12-23', 1, 1, 'PLAN-C-999', 12, '72'),
+(4, 'PLAN D', 'YEARLY', 1299, 'WFYwYnRVcTBCOXJTU2ZqZ0lGQzNPcTdqTEMwYjlhREYyQXhWbFJOWENYaz0=', 1, '2024-12-23', '2024-12-23', 1, 1, 'PLAN-D-1299', 20, '120');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `config_url_types`
 --
 
@@ -265,8 +345,6 @@ INSERT INTO `config_url_types` (`cut_id`, `cut_name`, `cut_icon`, `cut_created_a
 -- --------------------------------------------------------
 
 --
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- Table structure for table `config_values`
 --
 
@@ -280,7 +358,6 @@ CREATE TABLE `config_values` (
 -- --------------------------------------------------------
 
 --
-<<<<<<< HEAD
 -- Table structure for table `config_vendor_categories`
 --
 
@@ -389,8 +466,56 @@ INSERT INTO `config_vendor_types` (`vendor_type_id`, `vendor_type_name`, `vendor
 -- --------------------------------------------------------
 
 --
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
+-- Table structure for table `products`
+--
+
+CREATE TABLE `products` (
+  `products_id` int(10) NOT NULL,
+  `products_name` varchar(255) NOT NULL,
+  `product_primary_image` varchar(525) NOT NULL,
+  `product_category_id` int(10) NOT NULL,
+  `product_sub_category_id` int(10) NOT NULL,
+  `product_brand_id` int(10) NOT NULL,
+  `product_measurement_unit` varchar(100) NOT NULL,
+  `product_more_details` mediumtext NOT NULL,
+  `product_mrp` varchar(10) NOT NULL,
+  `product_sale_price` varchar(10) NOT NULL,
+  `product_status` int(2) NOT NULL,
+  `product_created_at` varchar(45) NOT NULL,
+  `product_updated_at` varchar(45) NOT NULL,
+  `product_created_by` int(10) NOT NULL,
+  `product_updated_by` int(10) NOT NULL,
+  `product_serial_no` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `products`
+--
+
+INSERT INTO `products` (`products_id`, `products_name`, `product_primary_image`, `product_category_id`, `product_sub_category_id`, `product_brand_id`, `product_measurement_unit`, `product_more_details`, `product_mrp`, `product_sale_price`, `product_status`, `product_created_at`, `product_updated_at`, `product_created_by`, `product_updated_by`, `product_serial_no`) VALUES
+(6, 'PRODUCT 1', 'PRODUCT_1__26_Dec_2024_11_12_13_20882760306_.gif', 5, 4, 9, 'meter', 'L0JDYitBSjdKSW8wdHM4U0N6bHNPYzdYeWQ0YmtabVA0RFNESjU3SHFuST0=', '', '', 1, '2024-12-26 11:28:13 AM', '2024-12-26 11:28:13 AM', 1, 1, '0987654'),
+(7, 'PRODUCT 2', 'PRODUCT_2__26_Dec_2024_11_12_47_60174687421_.jpg', 2, 3, 3, 'kilogram', 'Y2VEK1Q2aW4ybnptSmZTK3NtdVU1UHF4U2t4S3p0L1RTWTBidU5TQndtOD0=', '', '', 1, '2024-12-26 11:28:47 AM', '2024-12-26 11:28:47 AM', 1, 1, '987654'),
+(8, 'PRODUCT 3', 'PRODUCT_3__26_Dec_2024_11_12_24_94111420059_.webp', 3, 8, 12, 'foot', 'eGRiRVZycXErK3drK0NDcWtEU3ZNclN2b0FYS1RZeXlWMjB3bHRvQWk2Zz0=', '', '', 1, '2024-12-26 11:29:24 AM', '2024-12-26 11:29:24 AM', 1, 1, '234r34'),
+(9, 'PRODUCT 4', 'PRODUCT_4__26_Dec_2024_11_12_00_73526667340_.webp', 4, 9, 3, 'nanometer', 'UHpZa1IxUUk1SUs2Y09zY1drNldxMW9CYmREdEoyUnFsT3BOUSt0ek9SKys2azUzbjJXWkJ0amdNRzhBKytyNGlHZGl3enk5cTljOTBya3JXTVBxTzVKVHBWN21uUlplcW14RWUwRWlLTTJIckV2elcremswRWlzdFUxcmxwZUYvVmJTaWF2blE4Wkw1bXd4L0NFTDJvU1hWZ1l6ZmJ0WjFVOWh6UC95eU1xalZmVmdPamFON1FzZGNKU0Z2a3BqRzNMZDFXNTFOcUZkMXJSM0Y3R0ovcy96dzNid1MwYzlUbWFHZlJVZUNyYlowcnNYVFdVNVZrL2lBNDlnR21tei9hZGNFUkJqM3Q2K2c4UzlYajJyWXlWMlJ5emdYUnp0ZDN0MUZuMXV3M2VlUitPTFJ5ZS9NSHU0SUY4bTJOVlN3emEvdmZIR2tLbE14RGFGV1FrTHdGc1JIbFRkckV0OGNkVFVPdTVjZFZvPQ==', '', '', 1, '2024-12-26 11:31:00 AM', '2024-12-26 11:31:00 AM', 1, 1, '24r'),
+(10, 'PRPDICT 5', 'PRPDICT_5__26_Dec_2024_11_12_32_50211415022_.webp', 5, 4, 5, 'meter', 'UHpZa1IxUUk1SUs2Y09zY1drNldxMW9CYmREdEoyUnFsT3BOUSt0ek9SKys2azUzbjJXWkJ0amdNRzhBKytyNGlHZGl3enk5cTljOTBya3JXTVBxTzVKVHBWN21uUlplcW14RWUwRWlLTTJIckV2elcremswRWlzdFUxcmxwZUYvVmJTaWF2blE4Wkw1bXd4L0NFTDJvU1hWZ1l6ZmJ0WjFVOWh6UC95eU1xalZmVmdPamFON1FzZGNKU0Z2a3BqRzNMZDFXNTFOcUZkMXJSM0Y3R0ovcy96dzNid1MwYzlUbWFHZlJVZUNyYlowcnNYVFdVNVZrL2lBNDlnR21tei9hZGNFUkJqM3Q2K2c4UzlYajJyWXlWMlJ5emdYUnp0ZDN0MUZuMXV3M2VlUitPTFJ5ZS9NSHU0SUY4bTJOVlN3emEvdmZIR2tLbE14RGFGV1FrTHdGc1JIbFRkckV0OGNkVFVPdTVjZFZvPQ==', '', '', 1, '2024-12-26 11:31:32 AM', '2024-12-26 11:31:32 AM', 1, 1, '8765'),
+(11, 'PRODUCT 6', 'PRODUCT_6__26_Dec_2024_11_12_45_2266741685_.webp', 6, 1, 6, 'gram', 'UHpZa1IxUUk1SUs2Y09zY1drNldxMW9CYmREdEoyUnFsT3BOUSt0ek9SKys2azUzbjJXWkJ0amdNRzhBKytyNGlHZGl3enk5cTljOTBya3JXTVBxTzVKVHBWN21uUlplcW14RWUwRWlLTTJIckV2elcremswRWlzdFUxcmxwZUYvVmJTaWF2blE4Wkw1bXd4L0NFTDJvU1hWZ1l6ZmJ0WjFVOWh6UC95eU1xalZmVmdPamFON1FzZGNKU0Z2a3BqRzNMZDFXNTFOcUZkMXJSM0Y3R0ovcy96dzNid1MwYzlUbWFHZlJVZUNyYlowcnNYVFdVNVZrL2lBNDlnR21tei9hZGNFUkJqM3Q2K2c4UzlYajJyWXlWMlJ5emdYUnp0ZDN0MUZuMXV3M2VlUitPTFJ5ZS9NSHU0SUY4bTJOVlN3emEvdmZIR2tLbE14RGFGV1FrTHdGc1JIbFRkckV0OGNkVFVPdTVjZFZvPQ==', '', '', 1, '2024-12-26 11:33:45 AM', '2024-12-26 11:33:45 AM', 1, 1, '2324');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `product_specification`
+--
+
+CREATE TABLE `product_specification` (
+  `product_specification_id` int(10) NOT NULL,
+  `product_main_id` int(10) NOT NULL,
+  `product_specification_name` varchar(155) NOT NULL,
+  `product_specification_value` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `systemlogs`
 --
 
@@ -427,25 +552,16 @@ CREATE TABLE `users` (
   `UserWorkFeilds` varchar(1000) NOT NULL,
   `UserProfileImage` varchar(1000) NOT NULL DEFAULT 'default.png',
   `UserType` varchar(1000) NOT NULL,
-<<<<<<< HEAD
   `UserDateOfBirth` varchar(100) NOT NULL,
   `UserUpdatedBy` int(10) NOT NULL
-=======
-  `UserDateOfBirth` varchar(100) NOT NULL
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-<<<<<<< HEAD
 INSERT INTO `users` (`UserId`, `UserSalutation`, `UserFullName`, `UserPhoneNumber`, `UserEmailId`, `UserPassword`, `UserCreatedAt`, `UserUpdatedAt`, `UserStatus`, `UserNotes`, `UserCompanyName`, `UserDepartment`, `UserDesignation`, `UserWorkFeilds`, `UserProfileImage`, `UserType`, `UserDateOfBirth`, `UserUpdatedBy`) VALUES
 (1, 'Mr.', 'Gaurav Singh', '926882565', 'gauravsinghigc@gmail.com', 'VndsbUlpKzhKdWpEbEZNSUNva2t1UT09', '2024-11-18', '2024-11-27', 1, 'YkVYdnY2YmtTdHBSRVkxbW95bFEyWTl6L2YxNUhpQ1NRK0FFR1BMRnpDN0JnUEdFTzNwb0NJaUptK2V6WDJUTQ==', 'Navix Consultancy Services', 'Sales &amp; Marketing', 'ADMIN', 'Information Technology', 'default.png', 'Admin', '1999-01-22', 1);
-=======
-INSERT INTO `users` (`UserId`, `UserSalutation`, `UserFullName`, `UserPhoneNumber`, `UserEmailId`, `UserPassword`, `UserCreatedAt`, `UserUpdatedAt`, `UserStatus`, `UserNotes`, `UserCompanyName`, `UserDepartment`, `UserDesignation`, `UserWorkFeilds`, `UserProfileImage`, `UserType`, `UserDateOfBirth`) VALUES
-(1, 'Mr.', 'Gaurav Singh', '8447572565', 'gauravsinghigc@gmail.com', 'VndsbUlpKzhKdWpEbEZNSUNva2t1UT09', '0000-00-00 00:00:00.00000', '06 Sep, 2023', 1, 'YkVYdnY2YmtTdHBSRVkxbW95bFEyWTl6L2YxNUhpQ1NRK0FFR1BMRnpDN0JnUEdFTzNwb0NJaUptK2V6WDJUTQ==', 'Navix Consultancy Services', 'Sales &amp; Marketing', 'Sales Head', 'Information Technology', 'default.png', 'Admin', '2022-11-02');
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 
 -- --------------------------------------------------------
 
@@ -462,7 +578,6 @@ CREATE TABLE `user_password_change_requests` (
   `PasswordChangeRequestStatus` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-<<<<<<< HEAD
 -- --------------------------------------------------------
 
 --
@@ -472,7 +587,7 @@ CREATE TABLE `user_password_change_requests` (
 CREATE TABLE `vendor` (
   `vendor_id` int(10) NOT NULL,
   `vendor_name` varchar(70) NOT NULL,
-  `vendor_logo` varchar(255) NOT NULL,
+  `vendor_logo` varchar(255) NOT NULL DEFAULT 'default.png',
   `vendor_type_id` int(3) NOT NULL,
   `vendor_biz_name` varchar(100) NOT NULL,
   `vendor_phone_code` varchar(10) NOT NULL,
@@ -483,20 +598,25 @@ CREATE TABLE `vendor` (
   `vendor_updated_at` varchar(45) NOT NULL,
   `vendor_updated_by` int(10) NOT NULL,
   `vendor_status` int(2) NOT NULL,
-  `if_vendor_deleted` int(2) NOT NULL
+  `if_vendor_deleted` int(2) NOT NULL,
+  `vendor_conversion_status` varchar(100) NOT NULL DEFAULT 'LEAD',
+  `vendor_enquiry_status` int(2) NOT NULL DEFAULT 1,
+  `vendor_enquiry_prority_level` varchar(255) NOT NULL DEFAULT 'NORMAL',
+  `vendor_source` varchar(155) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `vendor`
 --
 
-INSERT INTO `vendor` (`vendor_id`, `vendor_name`, `vendor_logo`, `vendor_type_id`, `vendor_biz_name`, `vendor_phone_code`, `vendor_phone`, `vendor_email`, `vendor_created_at`, `vendor_created_by`, `vendor_updated_at`, `vendor_updated_by`, `vendor_status`, `if_vendor_deleted`) VALUES
-(1, 'Gaurav Singh', 'GAURAVSINGHIGC__29_Sep_2024_07_09_01_58233716566_.jpg', 13, 'GAURAVSINGHIGC', '+91', '9318310565', 'gauravsinghigc@gmail.com', '2024-09-29 07:12:01 PM', 1, '2024-09-29 07:12:01 PM', 1, 1, 0),
-(2, 'RITU MEHRA', 'ifdcbank-logo.jpg', 16, 'IDFC FIRST BANK', '+91', '8506973791', 'ritu.mehra@idfcfirstbank.com', '2024-09-30 07:02:59 PM', 1, '2024-09-30 07:02:59 PM', 1, 1, 0),
-(3, 'MANOJ KUMAR', 'DAIKIN_AIR_CONDITIONING__30_Sep_2024_07_09_21_26682116256_.jpeg', 14, 'DAIKIN AIR CONDITIONING', '+91', '8059829980', 'manojkumar@optechaircon.com', '2024-09-30 07:10:21 PM', 1, '2024-09-30 07:10:21 PM', 1, 1, 0),
-(4, 'GURMEET SINGH', 'MEET_FURNITURE_MART__30_Sep_2024_07_09_46_14327268604_.png', 21, 'MEET FURNITURE MART', '+91', '9811889266', 'meetfurnituremart@gmail.com', '2024-09-30 07:18:45 PM', 1, '2024-09-30 07:18:45 PM', 1, 1, 0),
-(5, 'HARMINDER PAL SINGH GULATI', 'H.S._BATTERY_HUB__30_Sep_2024_07_09_29_65469507098_.png', 22, 'H.S. BATTERY HUB', '+91', '9899065743', 'harminderpal.sgulati@yahoo.co.in', '2024-09-30 07:42:29 PM', 1, '2024-09-30 07:42:29 PM', 1, 1, 0),
-(6, 'PIYUSH', 'PIYUSH_LAPTOP_REPAIR__30_Sep_2024_07_09_55_60998765578_.jpeg', 23, 'PIYUSH LAPTOP REPAIR', '+91', '9911243392', 'piyushlaptops@gmail.com', '2024-09-30 07:46:55 PM', 1, '2024-09-30 07:46:55 PM', 1, 1, 0);
+INSERT INTO `vendor` (`vendor_id`, `vendor_name`, `vendor_logo`, `vendor_type_id`, `vendor_biz_name`, `vendor_phone_code`, `vendor_phone`, `vendor_email`, `vendor_created_at`, `vendor_created_by`, `vendor_updated_at`, `vendor_updated_by`, `vendor_status`, `if_vendor_deleted`, `vendor_conversion_status`, `vendor_enquiry_status`, `vendor_enquiry_prority_level`, `vendor_source`) VALUES
+(1, 'Gaurav Singh', 'GAURAVSINGHIGC__29_Sep_2024_07_09_01_58233716566_.jpg', 13, 'GAURAVSINGHIGC', '+91', '9318310565', 'gauravsinghigc@gmail.com', '2024-09-29 07:12:01 PM', 1, '2024-09-29 07:12:01 PM', 1, 1, 0, 'LEAD', 0, '', ''),
+(2, 'RITU MEHRA', 'ifdcbank-logo.jpg', 16, 'IDFC FIRST BANK', '+91', '8506973791', 'ritu.mehra@idfcfirstbank.com', '2024-09-30 07:02:59 PM', 1, '2024-09-30 07:02:59 PM', 1, 1, 0, 'LEAD', 0, '', ''),
+(3, 'MANOJ KUMAR', 'DAIKIN_AIR_CONDITIONING__30_Sep_2024_07_09_21_26682116256_.jpeg', 14, 'DAIKIN AIR CONDITIONING', '+91', '8059829980', 'manojkumar@optechaircon.com', '2024-09-30 07:10:21 PM', 1, '2024-09-30 07:10:21 PM', 1, 1, 0, 'LEAD', 0, '', ''),
+(4, 'GURMEET SINGH', 'MEET_FURNITURE_MART__30_Sep_2024_07_09_46_14327268604_.png', 21, 'MEET FURNITURE MART', '+91', '9811889266', 'meetfurnituremart@gmail.com', '2024-09-30 07:18:45 PM', 1, '2024-09-30 07:18:45 PM', 1, 1, 0, 'LEAD', 0, '', ''),
+(5, 'HARMINDER PAL SINGH GULATI', 'H.S._BATTERY_HUB__30_Sep_2024_07_09_29_65469507098_.png', 22, 'H.S. BATTERY HUB', '+91', '9899065743', 'harminderpal.sgulati@yahoo.co.in', '2024-09-30 07:42:29 PM', 1, '2024-09-30 07:42:29 PM', 1, 1, 0, 'LEAD', 0, '', ''),
+(6, 'PIYUSH', 'PIYUSH_LAPTOP_REPAIR__30_Sep_2024_07_09_55_60998765578_.jpeg', 23, 'PIYUSH LAPTOP REPAIR', '+91', '9911243392', 'piyushlaptops@gmail.com', '2024-09-30 07:46:55 PM', 1, '2024-09-30 07:46:55 PM', 1, 1, 0, 'LEAD', 0, '', ''),
+(7, 'SHALEEN', 'default.png', 6, 'GAURAVSINGHIGC', '+91', '9876766766', 'gauravsinghigcindia@gmail.com', '2024-12-27 09:49:07 AM', 1, '2024-12-27 09:49:07 AM', 1, 1, 0, 'LEAD', 0, '', '');
 
 -- --------------------------------------------------------
 
@@ -535,7 +655,8 @@ INSERT INTO `vendor_address` (`vendor_address_id`, `vendor_main_id`, `vendor_add
 (3, 3, '', 'Office', 'U-06 (UG FLOOR), BPTP - The Next Door U Block', 'Sector 76', 'Faridabad -  121001', 'Haryana', 'India', 121004, '', '', 1, 1, '2024-09-30 07:10:21 PM', '2024-09-30 07:10:21 PM', 1, NULL),
 (4, 4, '', 'Shop', '5E /  26, Meet Market', 'NIT', 'FARIDABAD', 'HARYANA', 'INDIA', 121001, '', '', 1, 1, '2024-09-30 07:18:45 PM', '2024-09-30 07:18:45 PM', 1, NULL),
 (5, 5, '', 'Shop', '769-A, OLD LAJPAT RAI MARKET, CHANDNI CHOWK, Opp. Moti Cinema Gate.', 'CHANDNI CHOWK', 'DELHI', 'DELHI', 'INDIA', 110000, '', '', 1, 1, '2024-09-30 07:42:29 PM', '2024-09-30 07:42:29 PM', 1, NULL),
-(6, 6, '', 'Shop', 'G-7/B, Siddharth Building 96', 'Nehru Place', 'NEW DELHI', 'DELHI', 'INDIA', 110022, '', '', 1, 1, '2024-09-30 07:46:55 PM', '2024-09-30 07:46:55 PM', 1, NULL);
+(6, 6, '', 'Shop', 'G-7/B, Siddharth Building 96', 'Nehru Place', 'NEW DELHI', 'DELHI', 'INDIA', 110022, '', '', 1, 1, '2024-09-30 07:46:55 PM', '2024-09-30 07:46:55 PM', 1, NULL),
+(7, 7, '9878675678', 'Select Address Type', 'Y6-11', 'sector 76', 'faridabad', 'haryana', 'india', 121004, '', '', 1, 1, '2024-12-27 09:49:07 AM', '2024-12-27 09:49:07 AM', 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -645,6 +766,47 @@ CREATE TABLE `vendor_documents` (
   `vendor_document_updated_by` int(10) NOT NULL,
   `vendor_document_status` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `vendor_enquiry_feedbacks`
+--
+
+CREATE TABLE `vendor_enquiry_feedbacks` (
+  `vendor_enquiry_feedback_id` int(10) NOT NULL,
+  `vendor_main_id` int(10) NOT NULL,
+  `vendor_feedback_msg` varchar(10000) NOT NULL,
+  `vendor_msg_created_at` varchar(45) NOT NULL,
+  `vendor_feedack_have_reminder` int(1) NOT NULL,
+  `vendor_feedback_reminding_time` varchar(55) NOT NULL,
+  `vendor_feedback_created_by` int(10) NOT NULL,
+  `vendor_feedback_status` int(10) NOT NULL,
+  `vendor_feedback_reminding_date` varchar(55) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `vendor_enquiry_feedbacks`
+--
+
+INSERT INTO `vendor_enquiry_feedbacks` (`vendor_enquiry_feedback_id`, `vendor_main_id`, `vendor_feedback_msg`, `vendor_msg_created_at`, `vendor_feedack_have_reminder`, `vendor_feedback_reminding_time`, `vendor_feedback_created_by`, `vendor_feedback_status`, `vendor_feedback_reminding_date`) VALUES
+(12, 7, 'WXFtZENjbDlvd1oyakZYT3haNGNkVXBsazlkcTc4YmpVYi94VERkQndPcz0=', '2024-12-28 09:32:50 AM', 0, '', 1, 0, ''),
+(13, 7, 'bWVHeWtYL2dwSksvbGFCMloyYm9GWFZPRURMNDJWZWF1UUlDb1k3bmlMOD0=', '2024-12-28 09:33:19 AM', 1, '09:35', 1, 0, '2024-12-14'),
+(14, 7, 'c1VUbTd2bHl3M0d0bHd0aktFbUVaWW8zUXBscjNXbGJNbmY3aVFrWjA4Zz0=', '2024-12-28 09:39:49 AM', 1, '09:12', 1, 0, '2024-12-28'),
+(15, 7, 'Zis3Z1o1Vlc5cWRQaVE1aDhaSldxZz09', '2024-12-28 09:39:53 AM', 1, '09:12', 1, 0, '2024-12-28'),
+(16, 7, 'ZVlTaWNqWUNUNjkxU0Z6OEpEZENlcDN5d1RSZkx3UWRUaE9LKzBURk9aK3E2UTZnZ3R4WjVhNlVlb0x1cFR2Rg==', '2024-12-28 09:53:58 AM', 1, '09:12', 1, 0, '2024-12-28'),
+(17, 7, 'Q21IdEhueVNBeUF2OEFKMldaUmtxUjduQmVIcjJmclhNdjZwZzVkTnp3NVZHN0pIeEV1UWVydktWK2N0b2hycg==', '2024-12-28 09:54:07 AM', 0, '09:12', 1, 0, '2024-12-28'),
+(18, 7, 'd3Fta1pIMW1DQWxaaTV3S0hLYzA2dz09', '2024-12-28 09:54:23 AM', 0, '09:12', 1, 0, '2024-12-28'),
+(19, 7, 'NTNKVkxwdzlmOXNDd25WeWw2aTJYdz09', '2024-12-28 09:55:12 AM', 0, '09:12', 1, 0, '2024-12-28'),
+(20, 7, 'bG1odndINFJwN21MS3k3STE5d2tCQT09', '2024-12-28 09:59:48 AM', 1, '11:12', 1, 0, '2024-12-28'),
+(21, 7, 'KzJTRVZpUXI4Mm1Hb2pIQis1SEN5dz09', '2024-12-28 10:02:44 AM', 0, '10:12', 1, 0, '2024-12-28'),
+(22, 7, 'bFkvZ2w2UzE0NzJKZjlUdUhqb0E3dkVqTnp2cUl6QkxRTENML1R3cHRXcz0=', '2024-12-28 10:05:53 AM', 0, '10:12', 1, 0, '2024-12-28'),
+(23, 7, 'b25BaWFGYXhCUU5OYWYrK0trM3IxSUtMeDNsZlBZV2JJOFdyL1Q0N2IxRT0=', '2024-12-28 10:11:11 AM', 0, '10:12', 1, 0, '2024-12-28'),
+(24, 7, 'b1ZGNHNlUEZYS2tIUzV1b3dQYVZOWmo3U0ZTMldHcTI1L3Z4TXRXbTZYYz0=', '2024-12-28 10:12:00 AM', 0, '10:12', 1, 0, '2024-12-28'),
+(25, 7, 'MHNTR1VhQ05jd3VLREtpTDMrWHNzZDB6V0ljSThZYWJPakxPckV5R1R1TT0=', '2024-12-28 10:12:21 AM', 1, '10:12', 1, 0, '2024-12-28'),
+(26, 7, 'WUlGbSs2bnFwWVpaWEUrQkladlZhTEo2L2lNSWxOeFR4NExmRCtKRG1tcz0=', '2024-12-28 10:17:35 AM', 0, '10:12', 1, 0, '2024-12-28'),
+(27, 6, 'dEVJdjBDaWZJczYvdFBuRDB0cldCQT09', '2024-12-28 10:53:11 AM', 0, '10:12', 1, 0, '2024-12-28'),
+(28, 6, 'R3BZdFhGSCtSZHdxSElqNEtOaG1pNXdMZkZkMEQ4RWNtZkl6bzJ6R001VT0=', '2024-12-28 10:56:20 AM', 1, '10:12', 1, 0, '2024-12-28');
 
 -- --------------------------------------------------------
 
@@ -843,6 +1005,18 @@ CREATE TABLE `vendor_payment_modes` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `vendor_products`
+--
+
+CREATE TABLE `vendor_products` (
+  `vendor_products_id` int(10) NOT NULL,
+  `vendor_main_id` int(10) NOT NULL,
+  `product_main_id` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `vendor_products_services`
 --
 
@@ -911,6 +1085,46 @@ CREATE TABLE `vendor_reviews` (
   `vendor_review_tags` varchar(255) NOT NULL,
   `vendor_review_status` int(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `vendor_subscriptions`
+--
+
+CREATE TABLE `vendor_subscriptions` (
+  `vendor_subscription_id` int(10) NOT NULL,
+  `subscription_main_id` int(10) NOT NULL,
+  `vendor_main_id` int(10) NOT NULL,
+  `vendor_subscription_name` varchar(255) NOT NULL,
+  `vendor_subscription_start_date` varchar(45) NOT NULL,
+  `vendor_subscription_renewal_date` varchar(45) NOT NULL,
+  `vendor_subsciption_pay_period` varchar(100) NOT NULL,
+  `vendor_subscription_free_limits` int(10) NOT NULL,
+  `vendor_subscriptions_notes` varchar(1000) NOT NULL,
+  `vendor_subscription_amount` int(10) NOT NULL,
+  `vendor_subscription_status` int(1) NOT NULL,
+  `vendor_subscription_created_at` varchar(45) NOT NULL,
+  `vendor_subscription_updated_at` varchar(45) NOT NULL,
+  `vendor_subscription_created_by` int(10) NOT NULL,
+  `vendor_subscription_updated_by` int(10) NOT NULL,
+  `vendor_subscription_disabled_at` varchar(45) NOT NULL,
+  `vendor_subscription_max_limits` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `vendor_subscriptions`
+--
+
+INSERT INTO `vendor_subscriptions` (`vendor_subscription_id`, `subscription_main_id`, `vendor_main_id`, `vendor_subscription_name`, `vendor_subscription_start_date`, `vendor_subscription_renewal_date`, `vendor_subsciption_pay_period`, `vendor_subscription_free_limits`, `vendor_subscriptions_notes`, `vendor_subscription_amount`, `vendor_subscription_status`, `vendor_subscription_created_at`, `vendor_subscription_updated_at`, `vendor_subscription_created_by`, `vendor_subscription_updated_by`, `vendor_subscription_disabled_at`, `vendor_subscription_max_limits`) VALUES
+(2, 2, 6, 'PLAN B', '', '2025-01-23', 'QUATERLY', 4, 'cG12blBUUnRWaEdtdWE1Nk9yNElaSGx6ajByQzhRcnE1TXNxZGI2UFlRND0=', 699, 1, '2024-12-23 02:37:02 PM', '2024-12-23 02:37:02 PM', 1, 1, '', 45),
+(3, 1, 5, 'PLAN A', '', '2025-01-23', 'MONTHLY', 5, 'MUxURkNBKzFHSXJHMDZMMkZDaFByQT09', 249, 1, '2024-12-23 03:10:07 PM', '2024-12-23 03:10:07 PM', 1, 1, '', 60),
+(4, 3, 4, 'PLAN C', '', '2025-01-23', 'HALF_YEARLY', 12, 'MUxURkNBKzFHSXJHMDZMMkZDaFByQT09', 999, 1, '2024-12-23 03:12:34 PM', '2024-12-23 03:12:34 PM', 1, 1, '', 72),
+(5, 4, 3, 'PLAN D', '', '2025-01-23', 'YEARLY', 20, 'MUxURkNBKzFHSXJHMDZMMkZDaFByQT09', 1299, 1, '2024-12-23 03:12:42 PM', '2024-12-23 03:12:42 PM', 1, 1, '', 120),
+(6, 2, 3, 'PLAN B', '', '2025-01-23', 'QUATERLY', 4, 'MUxURkNBKzFHSXJHMDZMMkZDaFByQT09', 699, 1, '2024-12-23 03:12:54 PM', '2024-12-23 03:12:54 PM', 1, 1, '', 45),
+(7, 2, 2, 'PLAN B', '2024-12-23', '2025-01-23', 'QUATERLY', 4, 'MUxURkNBKzFHSXJHMDZMMkZDaFByQT09', 699, 1, '2024-12-23 03:20:53 PM', '2024-12-23 03:20:53 PM', 1, 1, '', 45),
+(8, 2, 1, 'PLAN B', '2024-12-23', '2025-01-23', 'QUATERLY', 4, 'MUxURkNBKzFHSXJHMDZMMkZDaFByQT09', 699, 1, '2024-12-23 03:21:15 PM', '2024-12-23 03:21:15 PM', 1, 1, '', 45),
+(9, 4, 5, 'PLAN D', '2024-12-23', '2025-01-23', 'YEARLY', 20, 'MUxURkNBKzFHSXJHMDZMMkZDaFByQT09', 1299, 1, '2024-12-23 03:26:41 PM', '2024-12-23 03:26:41 PM', 1, 1, '', 120);
 
 -- --------------------------------------------------------
 
@@ -1022,11 +1236,27 @@ INSERT INTO `vendor_urls` (`vendor_url_id`, `vendor_url_main_id`, `vendor_url_na
 (5, 2, 'WEBSITE', 'https://idfcfirstbank.com', '2024-09-30 07:02:59 PM', '2024-09-30 07:02:59 PM', 1, 1, 1, NULL),
 (6, 3, 'WEBSITE', 'http://optechaircon.com', '2024-09-30 07:10:21 PM', '2024-09-30 07:10:21 PM', 1, 1, 1, NULL);
 
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `brands`
+--
+ALTER TABLE `brands`
+  ADD PRIMARY KEY (`brands_id`);
+
+--
+-- Indexes for table `categories`
+--
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`categories_id`);
+
+--
+-- Indexes for table `categories_sub`
+--
+ALTER TABLE `categories_sub`
+  ADD PRIMARY KEY (`categories_sub_id`);
 
 --
 -- Indexes for table `configs`
@@ -1059,22 +1289,24 @@ ALTER TABLE `config_pgs`
   ADD PRIMARY KEY (`ConfigPgId`);
 
 --
-<<<<<<< HEAD
+-- Indexes for table `config_subscriptions`
+--
+ALTER TABLE `config_subscriptions`
+  ADD PRIMARY KEY (`config_subs_id`);
+
+--
 -- Indexes for table `config_url_types`
 --
 ALTER TABLE `config_url_types`
   ADD PRIMARY KEY (`cut_id`);
 
 --
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- Indexes for table `config_values`
 --
 ALTER TABLE `config_values`
   ADD PRIMARY KEY (`ConfigValueId`);
 
 --
-<<<<<<< HEAD
 -- Indexes for table `config_vendor_categories`
 --
 ALTER TABLE `config_vendor_categories`
@@ -1087,8 +1319,18 @@ ALTER TABLE `config_vendor_types`
   ADD PRIMARY KEY (`vendor_type_id`);
 
 --
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
+-- Indexes for table `products`
+--
+ALTER TABLE `products`
+  ADD PRIMARY KEY (`products_id`);
+
+--
+-- Indexes for table `product_specification`
+--
+ALTER TABLE `product_specification`
+  ADD PRIMARY KEY (`product_specification_id`);
+
+--
 -- Indexes for table `systemlogs`
 --
 ALTER TABLE `systemlogs`
@@ -1107,7 +1349,6 @@ ALTER TABLE `user_password_change_requests`
   ADD PRIMARY KEY (`PasswordChangeReqId`);
 
 --
-<<<<<<< HEAD
 -- Indexes for table `vendor`
 --
 ALTER TABLE `vendor`
@@ -1148,6 +1389,12 @@ ALTER TABLE `vendor_contracts_documents`
 --
 ALTER TABLE `vendor_documents`
   ADD PRIMARY KEY (`vendor_document_id`);
+
+--
+-- Indexes for table `vendor_enquiry_feedbacks`
+--
+ALTER TABLE `vendor_enquiry_feedbacks`
+  ADD PRIMARY KEY (`vendor_enquiry_feedback_id`);
 
 --
 -- Indexes for table `vendor_invoices`
@@ -1204,6 +1451,12 @@ ALTER TABLE `vendor_payment_modes`
   ADD PRIMARY KEY (`vpm_id`);
 
 --
+-- Indexes for table `vendor_products`
+--
+ALTER TABLE `vendor_products`
+  ADD PRIMARY KEY (`vendor_products_id`);
+
+--
 -- Indexes for table `vendor_products_services`
 --
 ALTER TABLE `vendor_products_services`
@@ -1220,6 +1473,12 @@ ALTER TABLE `vendor_queries`
 --
 ALTER TABLE `vendor_reviews`
   ADD PRIMARY KEY (`vendor_review_id`);
+
+--
+-- Indexes for table `vendor_subscriptions`
+--
+ALTER TABLE `vendor_subscriptions`
+  ADD PRIMARY KEY (`vendor_subscription_id`);
 
 --
 -- Indexes for table `vendor_tasks`
@@ -1252,10 +1511,26 @@ ALTER TABLE `vendor_urls`
   ADD PRIMARY KEY (`vendor_url_id`);
 
 --
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `brands`
+--
+ALTER TABLE `brands`
+  MODIFY `brands_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+
+--
+-- AUTO_INCREMENT for table `categories`
+--
+ALTER TABLE `categories`
+  MODIFY `categories_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT for table `categories_sub`
+--
+ALTER TABLE `categories_sub`
+  MODIFY `categories_sub_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `configs`
@@ -1288,22 +1563,24 @@ ALTER TABLE `config_pgs`
   MODIFY `ConfigPgId` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
-<<<<<<< HEAD
+-- AUTO_INCREMENT for table `config_subscriptions`
+--
+ALTER TABLE `config_subscriptions`
+  MODIFY `config_subs_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT for table `config_url_types`
 --
 ALTER TABLE `config_url_types`
   MODIFY `cut_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 -- AUTO_INCREMENT for table `config_values`
 --
 ALTER TABLE `config_values`
   MODIFY `ConfigValueId` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=127;
 
 --
-<<<<<<< HEAD
 -- AUTO_INCREMENT for table `config_vendor_categories`
 --
 ALTER TABLE `config_vendor_categories`
@@ -1316,8 +1593,18 @@ ALTER TABLE `config_vendor_types`
   MODIFY `vendor_type_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
+-- AUTO_INCREMENT for table `products`
+--
+ALTER TABLE `products`
+  MODIFY `products_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
+--
+-- AUTO_INCREMENT for table `product_specification`
+--
+ALTER TABLE `product_specification`
+  MODIFY `product_specification_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `systemlogs`
 --
 ALTER TABLE `systemlogs`
@@ -1334,19 +1621,18 @@ ALTER TABLE `users`
 --
 ALTER TABLE `user_password_change_requests`
   MODIFY `PasswordChangeReqId` int(100) NOT NULL AUTO_INCREMENT;
-<<<<<<< HEAD
 
 --
 -- AUTO_INCREMENT for table `vendor`
 --
 ALTER TABLE `vendor`
-  MODIFY `vendor_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `vendor_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `vendor_address`
 --
 ALTER TABLE `vendor_address`
-  MODIFY `vendor_address_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `vendor_address_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `vendor_categories`
@@ -1377,6 +1663,12 @@ ALTER TABLE `vendor_contracts_documents`
 --
 ALTER TABLE `vendor_documents`
   MODIFY `vendor_document_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `vendor_enquiry_feedbacks`
+--
+ALTER TABLE `vendor_enquiry_feedbacks`
+  MODIFY `vendor_enquiry_feedback_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `vendor_invoices`
@@ -1433,6 +1725,12 @@ ALTER TABLE `vendor_payment_modes`
   MODIFY `vpm_id` int(10) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `vendor_products`
+--
+ALTER TABLE `vendor_products`
+  MODIFY `vendor_products_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT for table `vendor_products_services`
 --
 ALTER TABLE `vendor_products_services`
@@ -1449,6 +1747,12 @@ ALTER TABLE `vendor_queries`
 --
 ALTER TABLE `vendor_reviews`
   MODIFY `vendor_review_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `vendor_subscriptions`
+--
+ALTER TABLE `vendor_subscriptions`
+  MODIFY `vendor_subscription_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `vendor_tasks`
@@ -1479,8 +1783,6 @@ ALTER TABLE `vendor_tasks_members`
 --
 ALTER TABLE `vendor_urls`
   MODIFY `vendor_url_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-=======
->>>>>>> e47f186338003ddb4a50a366944ef85b24ec9206
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

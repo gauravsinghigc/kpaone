@@ -3,9 +3,9 @@
 function NoData($title, $desc = null)
 {
         $return  = '<div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
-        <h4 class="bold mt-3"><?php echo $title; ?></h4>
+        <h4 class="bold mt-3">' . $title . '</h4>
                                 <p>
-                                        <?php echo $desc; ?>
+                                ' . $desc . '
                                 </p>
                         </div>';
 

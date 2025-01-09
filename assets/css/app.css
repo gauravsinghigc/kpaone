@@ -33,6 +33,7 @@ img {
   -moz-border-radius: 0.5rem !important;
   -ms-border-radius: 0.5rem !important;
   -o-border-radius: 0.5rem !important;
+  box-shadow: 0px 0px 1px grey !important;
 }
 
 .login-box img {
@@ -50,8 +51,8 @@ a:hover {
 
 .app-setting-menus a {
   background-color: rgb(231, 231, 231);
-  padding: 0.4rem 0.5rem;
-  font-size: 0.8rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 0.9rem;
   margin-bottom: 0.2rem;
   border-radius: 0.45rem;
   color: var(--primary-color);
@@ -851,7 +852,7 @@ label {
 }
 
 .neg-mt-0-7 {
-  margin-top: -0.7rem !important;
+  margin-top: -0.98rem !important;
 }
 
 .multiple-users {
@@ -875,6 +876,7 @@ label {
   border-radius: 0.5rem;
   display: block;
   height: 100%;
+  padding-bottom: 0px !important;
 }
 
 .rsor-chat-window .chat-header {
@@ -884,19 +886,18 @@ label {
   border-width: thin;
 }
 
-.rsor-chat-window .chat-header .actions {}
-
 .rsor-chat-window .chat-header .profile {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   padding: 0.4rem;
 }
 
 .rsor-chat-window .chat-header .profile img {
-  width: 19%;
+  width: 7%;
   border-radius: 5rem !important;
   margin-right: 0.25rem;
+  margin-top: -0.5rem !important;
 }
 
 .rsor-chat-window .chat-header .profile h5 {
@@ -907,27 +908,143 @@ label {
   font-weight: 700;
 }
 
-.rsor-chat-window .chat-body {}
+.rsor-chat-window .chat-header .profile .enqactions {
+  position: absolute;
+  right: 1rem;
+  padding: 1rem;
+}
+
+.rsor-chat-window .chat-header .profile .enqactions a {
+  font-size: 1.2rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 2rem;
+  background-color: white;
+  color: #0a346a;
+  box-shadow: 0px 0px 1px black;
+}
+
+.rsor-chat-window .chat-header .profile .enqactions a:hover {
+  color: white;
+  background-color: #0c386b;
+}
+
+.rsor-chat-window .chat-header .profile .enqactions a i {
+  font-size: 1.5rem;
+}
+
+
+.rsor-chat-window .chat-body {
+  padding: 0.5rem;
+  overflow-y: scroll;
+  height: 32rem;
+  display: block;
+  background-image: repeating-linear-gradient(45deg, #e4f0ff66, #bcf6ff80 1px);
+}
+
+/* Style the scrollbar track (background of the scrollbar) */
+.rsor-chat-window .chat-body::-webkit-scrollbar {
+  width: 6px;
+  /* Make the scrollbar width thin */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+.rsor-chat-window .chat-body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Light grey color */
+  border-radius: 10px;
+  /* Rounded corners for the thumb */
+}
+
+/* Optional: Style the scrollbar when hovered */
+.rsor-chat-window .chat-body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Darker color on hover */
+}
+
+/* Style the scrollbar corner (if applicable) */
+.rsor-chat-window .chat-body::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.chat-body p.feedbacks {
+  background-color: rgb(190 253 190);
+  padding: 0.5rem;
+  width: 60%;
+  font-weight: bold;
+  text-align: right;
+  border-radius: 0.45rem;
+  border-bottom-right-radius: 0px;
+  margin-right: 0.35rem;
+  border-style: groove;
+  border-width: thin;
+  box-shadow: 0px 0px 13px #ededed;
+}
+
+.chat-body p.Havereminders {
+  background-color: rgb(247, 201, 197);
+  padding: 0.5rem;
+  width: 70%;
+  text-align: center;
+  border-radius: 0.45rem;
+  margin-right: 0.35rem;
+}
+
+.chat-body p.feedbacks span {
+  color: grey;
+  font-size: 0.7rem;
+  font-weight: 300;
+  float: right;
+  margin-top: 0.25rem;
+}
+
+.chat-body p.Havereminders span {
+  color: rgb(42, 42, 42);
+  font-size: 0.7rem;
+  font-weight: 300;
+  float: right;
+  margin-top: -0.5rem;
+}
 
 .rsor-chat-window .chat-actions {
-  position: absolute;
-  bottom: 0px;
-  right: 0.5rem;
+  position: sticky;
   display: flex;
   flex-direction: column;
   border-top-style: groove;
   border-width: thin;
-  width: 97%;
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
+  width: 100%;
+  padding: 0.5rem;
+  bottom: 1.2rem;
+  padding-right: 1.5rem;
+  background-color: #ffffff;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
-
-.rsor-chat-window .chat-actions .InputArea {
-  display: flex;
-  justify-content: space-between;
+.rsor-chat-window .chat-actions .InputArea input {
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  box-shadow: 0px 0px 2px #007bffa1;
 }
+
+.rsor-chat-window .chat-actions .InputArea button {
+  border-radius: 0.5rem;
+}
+
 
 .login-box .card-header {
   border-bottom: none !important;
+}
+
+.height-control {
+  height: 30rem;
+  overflow-y: scroll;
+}
+
+.data-list .icons {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  box-shadow: 0px 0px 1px grey;
+  border-radius: 0.5rem;
 }
